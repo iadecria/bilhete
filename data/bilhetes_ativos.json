@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-15",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-15_V1",
+  "status": "PENDING",
+  "supremoTicket": {
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Europa League + Libertadores)",
+    "type": "FILE_DO_DIA",
+    "sport": "Futebol",
+    "multiplierGlobal": 5.43,
+    "philosophy": "Reunião de todas as melhores oportunidades de altíssima convicção da UEFA Europa League e Semifinal da Libertadores, divididas por Turnos de Horário.",
+    "timeClusters": [
+      {
+        "clusterName": "🥪 TURNO 1 — ALMOÇO (13:45 BRT)",
+        "multiplier": 2.04,
+        "notes": "Três jogos de abertura da Europa League com gigantes em campo. Liquida às 15:45.",
+        "legs": [
+          "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33)",
+          "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20)",
+          "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28)"
+        ]
+      },
+      {
+        "clusterName": "🌆 TURNO 2 — TARDE / PRINCIPAL (16:00 BRT)",
+        "multiplier": 2.73,
+        "notes": "Os 4 jogos de maior peso da tarde europeia reunidos em um único bilhete.",
+        "legs": [
+          "Benfica x Celtic: Benfica Vence (@1.36)",
+          "Celta de Vigo x Juventus: Juventus ou Empate (Dupla Chance X2 @1.26)",
+          "Bournemouth x Sturm Graz: Bournemouth Vence (@1.35)",
+          "Hoffenheim x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.18)"
+        ]
+      },
+      {
+        "clusterName": "🌙 TURNO 3 — NOITE / LIBERTADORES (21:30 BRT)",
+        "multiplier": 1.58,
+        "notes": "Jogo de ida da Semifinal da Copa Libertadores em La Plata.",
+        "legs": [
+          "Estudiantes x Flamengo: Flamengo ou Empate (Dupla Chance X2 @1.30)",
+          "Estudiantes x Flamengo: Menos de 3.5 Gols no Jogo (@1.22)"
+        ]
+      }
+    ],
+    "selections": [
+      {
+        "match": "Lech Poznań x Bayer Leverkusen (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Bayer Leverkusen Vence (Moneyline)",
+        "odd": 1.33,
+        "status": "PENDING"
+      },
+      {
+        "match": "RB Salzburg x Milan (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "AZ Alkmaar x Hapoel Be'er Sheva (13:45 BRT)",
+        "cluster": "Turno 1",
+        "market": "AZ Alkmaar Vence (Moneyline)",
+        "odd": 1.28,
+        "status": "PENDING"
+      },
+      {
+        "match": "Benfica x Celtic (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Benfica Vence (Moneyline)",
+        "odd": 1.36,
+        "status": "PENDING"
+      },
+      {
+        "match": "Celta de Vigo x Juventus (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Juventus ou Empate (Dupla Chance X2)",
+        "odd": 1.26,
+        "status": "PENDING"
+      },
+      {
+        "match": "Bournemouth x Sturm Graz (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Bournemouth Vence (Moneyline)",
+        "odd": 1.35,
+        "status": "PENDING"
+      },
+      {
+        "match": "Hoffenheim x Beşiktaş (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.18,
+        "status": "PENDING"
+      },
+      {
+        "match": "Estudiantes x Flamengo (21:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Flamengo ou Empate (Dupla Chance X2)",
+        "odd": 1.30,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "sorosTicket": {
+    "day": 2,
+    "stake": 12.80,
+    "multiplier": 1.33,
+    "potentialReturn": 17.02,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 2 de 30 (Odd > 1.25): Bayer Leverkusen Vence (@1.33) [Poznań Stadium]. Abismo técnico dos comandados de Xabi Alonso contra o vice-líder polonês.",
+    "selections": [
+      {
+        "match": "Lech Poznań x Bayer Leverkusen",
+        "competition": "UEFA Europa League (13:45 BRT)",
+        "market": "Bayer Leverkusen Vence (Moneyline)",
+        "odd": 1.33,
+        "status": "PENDING"
+      }
+    ]
+  },
+  "modularTickets": [
+    {
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle)",
+      "type": "SAFE",
+      "stopPoints": [
+        {
+          "level": "STOP POINT 1 (Tripla Âncora Blindada — Turno do Almoço)",
+          "multiplier": 1.88,
+          "legs": [
+            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33)",
+            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28)",
+            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 2 (Quádrupla Forte com Benfica na Luz)",
+          "multiplier": 2.55,
+          "legs": [
+            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33)",
+            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28)",
+            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Benfica x Celtic: Benfica Vence (@1.36)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 3 (Múltipla Completa Top 5 Europa League)",
+          "multiplier": 3.21,
+          "legs": [
+            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33)",
+            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28)",
+            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20)",
+            "Benfica x Celtic: Benfica Vence (@1.36)",
+            "Celta de Vigo x Juventus: Juventus ou Empate (X2 @1.26)"
+          ],
+          "status": "PENDING"
+        }
+      ]
+    },
+    {
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & Arábia)",
+      "type": "SAFE+",
+      "multiplier": 3.65,
+      "legs": [
+        "Benfica x Celtic: Benfica Vence + Mais de 1.5 Gols (@1.60)",
+        "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen -1.0 Handicap (@1.52)",
+        "Al Ahli x Al Nassr: Ambos Marcam - Sim (@1.50)"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
+      "type": "ATTACK",
+      "multiplier": 12.90,
+      "legs": [
+        "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence + Mais de 2.5 Gols (@1.85)",
+        "Benfica x Celtic: Benfica Vence + Ambos Marcam (@3.10)",
+        "Estudiantes x Flamengo: Flamengo Vence (@2.25)"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima de Quinta-Feira)",
+      "type": "APOSENTAR_O_NETO",
+      "multiplier": 134.80,
+      "legs": [
+        "Lech Poznań x Leverkusen: Leverkusen -1.5 AH (@1.85)",
+        "Benfica x Celtic: Benfica Vence + Mais de 2.5 Gols (@2.05)",
+        "Salzburg x Milan: Milan Vence + Ambos Marcam (@3.30)",
+        "Celta x Juventus: Juventus Vence (@2.15)",
+        "Al Ahli x Al Nassr: Ambos Marcam + Mais de 2.5 Gols (@1.80)",
+        "Bournemouth x Sturm Graz: Bournemouth -1.5 AH (@1.95)",
+        "Estudiantes x Flamengo: Flamengo Vence + Menos de 3.5 Gols (@2.70)"
+      ],
+      "status": "PENDING"
+    }
+  ],
+  "basquete": {
+    "coverage": "EuroLeague & NBA Preseason (15/10/2026)",
+    "sorosTicket": {
+      "day": 2,
+      "stake": 13.30,
+      "multiplier": 1.33,
+      "potentialReturn": 17.69,
+      "status": "PENDING",
+      "notes": "Sniper do Basquete: New York Knicks Acima de 109.5 Pontos (@1.33) [Madison Square Garden]. Knicks com rotação forte em casa contra os Raptors.",
+      "selections": [
+        {
+          "match": "Toronto Raptors @ New York Knicks",
+          "competition": "NBA Preseason (20:30 BRT)",
+          "market": "New York Knicks ➔ Acima de 109.5 Pontos (Team Total)",
+          "odd": 1.33,
+          "status": "PENDING"
+        }
+      ]
+    },
+    "supremoTicket": {
+      "name": "⭐ BILHETE SUPREMO BASQUETE — O FILÉ DA RODADA (EuroLeague + NBA)",
+      "type": "FILE_DO_DIA",
+      "multiplierGlobal": 5.32,
+      "philosophy": "Aplicação estrita da Diretriz V2.5 Team Total First e Spreads Positivos Elásticos.",
+      "timeClusters": [
+        {
+          "clusterName": "🥪 TURNO 1 — TARDE (EuroLeague / 14:45 - 15:45 BRT)",
+          "multiplier": 2.20,
+          "notes": "Jogos europeus no meio da tarde com Real Madrid e Fenerbahçe.",
+          "legs": [
+            "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32)",
+            "Fenerbahçe vs Partizan: Fenerbahçe Vence V1 (@1.28)",
+            "Valencia vs Maccabi: Valencia Basket +5.5 Handicap (@1.30)"
+          ]
+        },
+        {
+          "clusterName": "🌆 TURNO 2 — NOITE (NBA Preseason / 20:00 - 21:30 BRT)",
+          "multiplier": 2.42,
+          "notes": "Jogos da NBA aplicando a regra de ouro de Team Total rebaixado.",
+          "legs": [
+            "Toronto Raptors @ New York Knicks: Knicks Acima de 109.5 Pontos (@1.33)",
+            "Minnesota Timberwolves @ Detroit Pistons: Timberwolves +6.5 Handicap (@1.35)",
+            "New Orleans Pelicans @ Dallas Mavericks: Mavericks Acima de 108.5 Pontos (@1.35)"
+          ]
+        }
+      ],
+      "selections": [
+        {
+          "match": "Real Madrid vs ASVEL Villeurbanne (15:45 BRT)",
+          "cluster": "Turno 1",
+          "market": "Real Madrid Acima de 84.5 Pontos (Team Total)",
+          "odd": 1.32,
+          "status": "PENDING"
+        },
+        {
+          "match": "Fenerbahçe vs Partizan Belgrade (14:45 BRT)",
+          "cluster": "Turno 1",
+          "market": "Fenerbahçe Vence (Moneyline)",
+          "odd": 1.28,
+          "status": "PENDING"
+        },
+        {
+          "match": "Valencia Basket vs Maccabi Tel Aviv (15:30 BRT)",
+          "cluster": "Turno 1",
+          "market": "Valencia Basket +5.5 Spread Protegido",
+          "odd": 1.30,
+          "status": "PENDING"
+        },
+        {
+          "match": "Toronto Raptors @ New York Knicks (20:30 BRT)",
+          "cluster": "Turno 2",
+          "market": "New York Knicks Acima de 109.5 Pontos",
+          "odd": 1.33,
+          "status": "PENDING"
+        },
+        {
+          "match": "Minnesota Timberwolves @ Detroit Pistons (20:00 BRT)",
+          "cluster": "Turno 2",
+          "market": "Minnesota Timberwolves +6.5 Handicap",
+          "odd": 1.35,
+          "status": "PENDING"
+        },
+        {
+          "match": "New Orleans Pelicans @ Dallas Mavericks (21:30 BRT)",
+          "cluster": "Turno 2",
+          "market": "Dallas Mavericks Acima de 108.5 Pontos",
+          "odd": 1.35,
+          "status": "PENDING"
+        }
+      ]
+    },
+    "modularTickets": [
+      {
+        "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial)",
+        "type": "SAFE",
+        "stopPoints": [
+          {
+            "level": "STOP POINT 1 (Dupla Âncora Team Total — Tarde e Noite)",
+            "multiplier": 1.76,
+            "legs": [
+              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32)",
+              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33)"
+            ],
+            "status": "PENDING"
+          },
+          {
+            "level": "STOP POINT 2 (Tripla Blindada NBA & EuroLeague)",
+            "multiplier": 2.38,
+            "legs": [
+              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32)",
+              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33)",
+              "Pelicans @ Mavericks: Mavericks Acima de 108.5 Pontos (@1.35)"
+            ],
+            "status": "PENDING"
+          },
+          {
+            "level": "STOP POINT 3 (Quádrupla Completa)",
+            "multiplier": 3.21,
+            "legs": [
+              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32)",
+              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33)",
+              "Pelicans @ Mavericks: Mavericks Acima de 108.5 Pontos (@1.35)",
+              "Timberwolves @ Pistons: Timberwolves +6.5 Spread (@1.35)"
+            ],
+            "status": "PENDING"
+          }
+        ]
+      },
+      {
+        "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
+        "type": "SAFE+",
+        "multiplier": 3.25,
+        "legs": [
+          "Toronto Raptors @ New York Knicks: Knicks -6.5 Handicap (@1.82)",
+          "Real Madrid vs ASVEL: Real Madrid -10.5 Handicap (@1.78)"
+        ],
+        "status": "PENDING"
+      },
+      {
+        "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE",
+        "type": "ATTACK",
+        "multiplier": 10.60,
+        "legs": [
+          "Raptors @ Knicks: Knicks Vence + Mais de 220.5 Pontos (@2.60)",
+          "Pelicans @ Mavericks: Mavericks Vence + Mais de 218.5 Pontos (@2.45)",
+          "Real Madrid vs ASVEL: Real Madrid Acima de 92.5 Pontos (@1.66)"
+        ],
+        "status": "PENDING"
+      }
+    ]
+  }
+}
