@@ -1,32 +1,32 @@
 {
   "date": "2026-10-16",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V3",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V4_MELBET_AUDITED",
   "status": "PENDING",
-  "notes": "Ajuste em tempo real com as odds exatas do terminal Melbet do usuário: Frankfurt 1X está cotado a @1.316 (e não 1.26), Over 1.5 está muito esmagado a @1.049, sendo ajustado para Frankfurt 1X (@1.316) ou Over 2.5 (@1.31) / BTTS (@1.32).",
+  "notes": "Grade 100% calibrada e auditada com base nas cotações reais do terminal Melbet do usuário. Inclui Frankfurt 1X (@1.316), Zalgiris V1 (@1.37), Panathinaikos V1 (@1.25) e Barcelona +8.5 (@1.44). Expurgo definitivo dos jogos sauditas adiados.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Bundesliga, La Liga, Serie A, Brasileirão & Bombonera)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.48,
-    "philosophy": "Reunião das melhores oportunidades de altíssima convicção com odds reais auditadas diretamente no terminal Melbet.",
+    "multiplierGlobal": 5.85,
+    "philosophy": "Reunião das melhores oportunidades de altíssima convicção das ligas de sexta-feira na Europa e América do Sul, divididas por Turnos de Horário.",
     "timeClusters": [
       {
         "clusterName": "🥪 TURNO 1 — TARDE / ABERTURA EUROPEIA (15:30 - 15:45 BRT)",
         "multiplier": 1.63,
         "notes": "Frankfurt no Deutsche Bank Park cotado a 1.316 na Dupla Chance e Sassuolo visitando Frosinone.",
         "legs": [
-          "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.316)",
+          "Eintracht Frankfurt x 1. Koln: Hipótese Dupla 1X (@1.316)",
           "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
         ]
       },
       {
         "clusterName": "🌆 TURNO 2 — TARDE / ESPANHA & INGLATERRA (16:00 BRT)",
-        "multiplier": 1.95,
-        "notes": "Dépor no Riazor contra o fragilizado Levante e gols em Turf Moor.",
+        "multiplier": 2.04,
+        "notes": "Dépor no Riazor contra o fragilizado Levante, gols em Turf Moor e BTTS na Alemanha.",
         "legs": [
           "Deportivo La Coruña x Levante: Deportivo La Coruña ou Empate (1X @1.25)",
           "Burnley x Wolverhampton: Mais de 1.5 Gols no Jogo (@1.24)",
-          "Eintracht Frankfurt x Colônia: Ambas as Equipas Marcam - Sim (@1.32)"
+          "Eintracht Frankfurt x 1. Koln: Ambas as Equipas Marcam - Sim (@1.32)"
         ]
       },
       {
@@ -42,7 +42,7 @@
     ],
     "selections": [
       {
-        "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
+        "match": "Eintracht Frankfurt x 1. Koln (15:30 BRT)",
         "cluster": "Turno 1",
         "market": "Eintracht Frankfurt ou Empate (Hipótese Dupla 1X)",
         "odd": 1.316,
@@ -70,7 +70,7 @@
         "status": "PENDING"
       },
       {
-        "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
+        "match": "Eintracht Frankfurt x 1. Koln (15:30 BRT)",
         "cluster": "Turno 2",
         "market": "Ambas as Equipas Marcam - Sim",
         "odd": 1.32,
@@ -105,10 +105,10 @@
     "multiplier": 1.316,
     "potentialReturn": 22.40,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 3 de 30 (Melbet Oficial): Eintracht Frankfurt ou Empate (Hipótese Dupla 1X @1.316) [Deutsche Bank Park]. Frankfurt pressionado em casa contra o Colônia com DM lotado. Odd ajustada diretamente com a tela da Melbet.",
+    "notes": "Modelo Sniper Dia 3 de 30 (Melbet Oficial): Eintracht Frankfurt ou Empate (Hipótese Dupla 1X @1.316) [Deutsche Bank Park]. Frankfurt pressionado em casa contra o Colônia com DM lotado. Odd auditada diretamente na tela da Melbet.",
     "selections": [
       {
-        "match": "Eintracht Frankfurt x Colônia",
+        "match": "Eintracht Frankfurt x 1. Koln",
         "competition": "Bundesliga (15:30 BRT)",
         "market": "Hipótese Dupla 1X",
         "odd": 1.316,
@@ -125,7 +125,7 @@
           "level": "STOP POINT 1 (Tripla Âncora Blindada — Tarde Europeia)",
           "multiplier": 2.05,
           "legs": [
-            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
+            "Eintracht Frankfurt x 1. Koln: Hipótese Dupla 1X (@1.316)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
           ],
@@ -135,7 +135,7 @@
           "level": "STOP POINT 2 (Quádrupla Forte com Inglaterra)",
           "multiplier": 2.54,
           "legs": [
-            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
+            "Eintracht Frankfurt x 1. Koln: Hipótese Dupla 1X (@1.316)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
             "Burnley x Wolverhampton: Mais de 1.5 Gols (@1.24)"
@@ -146,7 +146,7 @@
           "level": "STOP POINT 3 (Múltipla Completa com Brasileirão & Bombonera)",
           "multiplier": 3.72,
           "legs": [
-            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
+            "Eintracht Frankfurt x 1. Koln: Hipótese Dupla 1X (@1.316)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
             "Burnley x Wolverhampton: Mais de 1.5 Gols (@1.24)",
@@ -162,7 +162,7 @@
       "type": "SAFE+",
       "multiplier": 3.78,
       "legs": [
-        "Eintracht Frankfurt x Colônia: Ambas as Equipas Marcam - Sim (@1.32)",
+        "Eintracht Frankfurt x 1. Koln: Ambas as Equipas Marcam - Sim (@1.32)",
         "Mirassol x Internacional: Mirassol ou Empate (1X @1.38)",
         "Boca Juniors x Talleres: Boca Juniors Vence (@1.72)",
         "Frosinone x Sassuolo: Sassuolo ou Empate (X2 @1.42)"
@@ -174,7 +174,7 @@
       "type": "ATTACK",
       "multiplier": 13.60,
       "legs": [
-        "Eintracht Frankfurt x Colônia: Frankfurt Vence + Ambos Marcam (@3.20)",
+        "Eintracht Frankfurt x 1. Koln: Frankfurt Vence + Ambos Marcam (@3.20)",
         "Deportivo La Coruña x Levante: Deportivo Vence + Mais de 1.5 Gols (@2.50)",
         "Boca Juniors x Talleres: Boca Juniors Vence + Menos de 3.5 Gols (@1.70)"
       ],
@@ -186,16 +186,16 @@
     "sorosTicket": {
       "day": 3,
       "stake": 17.69,
-      "multiplier": 1.30,
-      "potentialReturn": 23.00,
+      "multiplier": 1.25,
+      "potentialReturn": 22.11,
       "status": "PENDING",
-      "notes": "Sniper do Basquete Dia 3 de 30: Panathinaikos Vence (@1.30) [Telekom Center Athens]. Campeão europeu sob Kendrick Nunn e Sloukas recebe o Hapoel Tel Aviv.",
+      "notes": "Sniper do Basquete Dia 3 de 30 (Melbet Oficial): Panathinaikos Vence (V1 @1.25) [Telekom Center Athens]. Campeão europeu sob Kendrick Nunn e Sloukas recebe o Hapoel Tel Aviv.",
       "selections": [
         {
           "match": "Panathinaikos Athens vs Hapoel Tel Aviv",
           "competition": "EuroLeague (15:15 BRT)",
-          "market": "Panathinaikos Vence (Moneyline)",
-          "odd": 1.30,
+          "market": "Vitórias da equipa: V1",
+          "odd": 1.25,
           "status": "PENDING"
         }
       ]
@@ -203,64 +203,50 @@
     "supremoTicket": {
       "name": "⭐ BILHETE SUPREMO BASQUETE — O FILÉ DA RODADA (EuroLeague + NBA Finale)",
       "type": "FILE_DO_DIA",
-      "multiplierGlobal": 5.12,
-      "philosophy": "Aplicação estrita da Diretriz V2.5 Team Total First e Spreads Positivos Elásticos.",
+      "multiplierGlobal": 5.78,
+      "philosophy": "Aplicação estrita da Diretriz V2.5 Team Total First e Spreads Positivos Elásticos da Melbet.",
       "timeClusters": [
         {
-          "clusterName": "🥪 TURNO 1 — TARDE (EuroLeague / 14:00 - 15:30 BRT)",
-          "multiplier": 2.18,
-          "notes": "Rodada de peso na Euroliga com Panathinaikos, Zalgiris e Barcelona.",
+          "clusterName": "🥪 TURNO 1 — TARDE / TRIPLA DE OURO EUROLEAGUE (14:00 - 15:30 BRT)",
+          "multiplier": 2.46,
+          "notes": "As três maiores potências da EuroLeague na Melbet: Zalgiris V1, Panathinaikos V1 e Barcelona +8.5.",
           "legs": [
-            "Panathinaikos vs Hapoel Tel Aviv: Panathinaikos Vence (@1.30)",
-            "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)",
-            "Zalgiris Kaunas vs Anadolu Efes: Zalgiris +5.5 Handicap (@1.28)"
+            "Zalgiris Kaunas vs Anadolu Efes: Vitórias da equipa: V1 (@1.37)",
+            "Panathinaikos vs Hapoel Tel Aviv: Vitórias da equipa: V1 (@1.25)",
+            "FC Barcelona vs Olympiacos: Barcelona +8.5 Handicap Protegido 1 (+8.5 @1.44)"
           ]
         },
         {
-          "clusterName": "🌆 TURNO 2 — NOITE (NBA Preseason Finale / 20:00 - 23:00 BRT)",
+          "clusterName": "🌆 TURNO 2 — NOITE / NBA PRESEASON FINALE (20:00 - 23:00 BRT)",
           "multiplier": 2.35,
           "notes": "Última noite de pré-temporada com foco em Team Total seguro dos mandantes.",
           "legs": [
-            "Denver Nuggets @ Los Angeles Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
+            "Boston Celtics @ Philadelphia 76ers: Celtics +6.5 Handicap (@1.35)",
             "Portland Trail Blazers @ Golden State Warriors: Warriors Vence V1 (@1.30)",
-            "Boston Celtics @ Philadelphia 76ers: Celtics +6.5 Handicap (@1.35)"
+            "Denver Nuggets @ Los Angeles Lakers: Lakers Acima de 107.5 Pontos (@1.34)"
           ]
         }
       ],
       "selections": [
         {
+          "match": "Zalgiris Kaunas vs Anadolu Efes (14:00 BRT)",
+          "cluster": "Turno 1",
+          "market": "Vitórias da equipa: V1",
+          "odd": 1.37,
+          "status": "PENDING"
+        },
+        {
           "match": "Panathinaikos vs Hapoel Tel Aviv (15:15 BRT)",
           "cluster": "Turno 1",
-          "market": "Panathinaikos Vence (Moneyline)",
-          "odd": 1.30,
+          "market": "Vitórias da equipa: V1",
+          "odd": 1.25,
           "status": "PENDING"
         },
         {
           "match": "FC Barcelona vs Olympiacos (15:30 BRT)",
           "cluster": "Turno 1",
-          "market": "FC Barcelona Acima de 81.5 Pontos (Team Total)",
-          "odd": 1.32,
-          "status": "PENDING"
-        },
-        {
-          "match": "Zalgiris Kaunas vs Anadolu Efes (14:00 BRT)",
-          "cluster": "Turno 1",
-          "market": "Zalgiris Kaunas +5.5 Spread Protegido",
-          "odd": 1.28,
-          "status": "PENDING"
-        },
-        {
-          "match": "Denver Nuggets @ Los Angeles Lakers (23:00 BRT)",
-          "cluster": "Turno 2",
-          "market": "Los Angeles Lakers Acima de 107.5 Pontos",
-          "odd": 1.34,
-          "status": "PENDING"
-        },
-        {
-          "match": "Portland Trail Blazers @ Golden State Warriors (23:00 BRT)",
-          "cluster": "Turno 2",
-          "market": "Golden State Warriors Vence (Moneyline)",
-          "odd": 1.30,
+          "market": "Barcelona +8.5 Handicap Protegido 1 (+8.5)",
+          "odd": 1.44,
           "status": "PENDING"
         },
         {
@@ -269,66 +255,59 @@
           "market": "Boston Celtics +6.5 Handicap",
           "odd": 1.35,
           "status": "PENDING"
+        },
+        {
+          "match": "Portland Trail Blazers @ Golden State Warriors (23:00 BRT)",
+          "cluster": "Turno 2",
+          "market": "Golden State Warriors Vence (V1)",
+          "odd": 1.30,
+          "status": "PENDING"
+        },
+        {
+          "match": "Denver Nuggets @ Los Angeles Lakers (23:00 BRT)",
+          "cluster": "Turno 2",
+          "market": "Los Angeles Lakers Acima de 107.5 Pontos",
+          "odd": 1.34,
+          "status": "PENDING"
         }
       ]
     },
     "modularTickets": [
       {
-        "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial)",
+        "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial Melbet)",
         "type": "SAFE",
         "stopPoints": [
           {
-            "level": "STOP POINT 1 (Dupla Âncora EuroLeague & NBA)",
-            "multiplier": 1.72,
+            "level": "STOP POINT 1 (Dupla Âncora EuroLeague Melbet @1.71)",
+            "multiplier": 1.71,
             "legs": [
-              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
-              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)"
+              "Zalgiris Kaunas vs Anadolu Efes: Vitórias da equipa V1 (@1.37)",
+              "Panathinaikos vs Hapoel: Vitórias da equipa V1 (@1.25)"
             ],
             "status": "PENDING"
           },
           {
-            "level": "STOP POINT 2 (Tripla Blindada)",
-            "multiplier": 2.27,
+            "level": "STOP POINT 2 (Tripla Blindada EuroLeague com Barcelona @2.46)",
+            "multiplier": 2.46,
             "legs": [
-              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
-              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
-              "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)"
+              "Zalgiris Kaunas vs Anadolu Efes: Vitórias da equipa V1 (@1.37)",
+              "Panathinaikos vs Hapoel: Vitórias da equipa V1 (@1.25)",
+              "FC Barcelona vs Olympiacos: Barcelona 1 (+8.5 @1.44)"
             ],
             "status": "PENDING"
           },
           {
-            "level": "STOP POINT 3 (Quádrupla Completa)",
-            "multiplier": 2.95,
+            "level": "STOP POINT 3 (Quádrupla EuroLeague + NBA @3.32)",
+            "multiplier": 3.32,
             "legs": [
-              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
-              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
-              "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)",
-              "Blazers @ Warriors: Warriors Vence (@1.30)"
+              "Zalgiris Kaunas vs Anadolu Efes: Vitórias da equipa V1 (@1.37)",
+              "Panathinaikos vs Hapoel: Vitórias da equipa V1 (@1.25)",
+              "FC Barcelona vs Olympiacos: Barcelona 1 (+8.5 @1.44)",
+              "Blazers @ Warriors: Warriors Vence V1 (@1.30)"
             ],
             "status": "PENDING"
           }
         ]
-      },
-      {
-        "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
-        "type": "SAFE+",
-        "multiplier": 3.12,
-        "legs": [
-          "Panathinaikos vs Hapoel: Panathinaikos -7.5 Handicap (@1.75)",
-          "FC Barcelona vs Olympiacos: Barcelona -4.5 Handicap (@1.78)"
-        ],
-        "status": "PENDING"
-      },
-      {
-        "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE",
-        "type": "ATTACK",
-        "multiplier": 9.80,
-        "legs": [
-          "Panathinaikos vs Hapoel: Panathinaikos Vence + Mais de 164.5 Pontos (@2.35)",
-          "Nuggets @ Lakers: Lakers Vence + Mais de 222.5 Pontos (@2.50)",
-          "FC Barcelona vs Olympiacos: Barcelona Acima de 88.5 Pontos (@1.68)"
-        ],
-        "status": "PENDING"
       }
     ]
   }
