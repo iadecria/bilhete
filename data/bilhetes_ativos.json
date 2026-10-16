@@ -1,32 +1,32 @@
 {
   "date": "2026-10-16",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V2",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V3",
   "status": "PENDING",
-  "notes": "Grade revisada em 16/10 após confirmação do adiamento de toda a rodada da Saudi Pro League (Al-Riyadh x Al-Hilal e Al-Ittihad x Al-Shabab remarcados para 19/12 por fechamento de espaço aéreo regional). Substitutos de altíssima convicção inseridos: Eintracht Frankfurt 1X (@1.26) assume o Soros Dia 3, Boca Juniors na Bombonera e Burnley x Wolves na Inglaterra.",
+  "notes": "Ajuste em tempo real com as odds exatas do terminal Melbet do usuário: Frankfurt 1X está cotado a @1.316 (e não 1.26), Over 1.5 está muito esmagado a @1.049, sendo ajustado para Frankfurt 1X (@1.316) ou Over 2.5 (@1.31) / BTTS (@1.32).",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Bundesliga, La Liga, Serie A, Brasileirão & Bombonera)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.18,
-    "philosophy": "Reunião das melhores oportunidades de altíssima convicção das ligas de sexta-feira na Europa e América do Sul, divididas por Turnos de Horário.",
+    "multiplierGlobal": 5.48,
+    "philosophy": "Reunião das melhores oportunidades de altíssima convicção com odds reais auditadas diretamente no terminal Melbet.",
     "timeClusters": [
       {
         "clusterName": "🥪 TURNO 1 — TARDE / ABERTURA EUROPEIA (15:30 - 15:45 BRT)",
-        "multiplier": 1.51,
-        "notes": "Frankfurt no Deutsche Bank Park e Sassuolo visitando Frosinone. Liquidação rápida às 17:45.",
+        "multiplier": 1.63,
+        "notes": "Frankfurt no Deutsche Bank Park cotado a 1.316 na Dupla Chance e Sassuolo visitando Frosinone.",
         "legs": [
-          "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+          "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.316)",
           "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
         ]
       },
       {
         "clusterName": "🌆 TURNO 2 — TARDE / ESPANHA & INGLATERRA (16:00 BRT)",
         "multiplier": 1.95,
-        "notes": "Dépor fortíssimo no Riazor, duelo quente em Turf Moor e Frankfurt blindado.",
+        "notes": "Dépor no Riazor contra o fragilizado Levante e gols em Turf Moor.",
         "legs": [
           "Deportivo La Coruña x Levante: Deportivo La Coruña ou Empate (1X @1.25)",
           "Burnley x Wolverhampton: Mais de 1.5 Gols no Jogo (@1.24)",
-          "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)"
+          "Eintracht Frankfurt x Colônia: Ambas as Equipas Marcam - Sim (@1.32)"
         ]
       },
       {
@@ -44,8 +44,8 @@
       {
         "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
         "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.22,
+        "market": "Eintracht Frankfurt ou Empate (Hipótese Dupla 1X)",
+        "odd": 1.316,
         "status": "PENDING"
       },
       {
@@ -72,8 +72,8 @@
       {
         "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
         "cluster": "Turno 2",
-        "market": "Eintracht Frankfurt ou Empate (1X)",
-        "odd": 1.26,
+        "market": "Ambas as Equipas Marcam - Sim",
+        "odd": 1.32,
         "status": "PENDING"
       },
       {
@@ -102,54 +102,54 @@
   "sorosTicket": {
     "day": 3,
     "stake": 17.02,
-    "multiplier": 1.26,
-    "potentialReturn": 21.45,
+    "multiplier": 1.316,
+    "potentialReturn": 22.40,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 3 de 30 (Odd > 1.25): Eintracht Frankfurt ou Empate (1X @1.26) [Deutsche Bank Park]. Frankfurt pressionado em casa contra o Colônia desfigurado por lesões (sem Hübers, Skhiri, Dallinga e Ache). Assume o Soros após adiamento oficial da liga saudita.",
+    "notes": "Modelo Sniper Dia 3 de 30 (Melbet Oficial): Eintracht Frankfurt ou Empate (Hipótese Dupla 1X @1.316) [Deutsche Bank Park]. Frankfurt pressionado em casa contra o Colônia com DM lotado. Odd ajustada diretamente com a tela da Melbet.",
     "selections": [
       {
         "match": "Eintracht Frankfurt x Colônia",
         "competition": "Bundesliga (15:30 BRT)",
-        "market": "Eintracht Frankfurt ou Empate (Dupla Chance 1X)",
-        "odd": 1.26,
+        "market": "Hipótese Dupla 1X",
+        "odd": 1.316,
         "status": "PENDING"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle)",
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Melbet)",
       "type": "SAFE",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Tripla Âncora Blindada — Tarde Europeia)",
-          "multiplier": 1.92,
+          "multiplier": 2.05,
           "legs": [
-            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
-            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
-            "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)"
-          ],
-          "status": "PENDING"
-        },
-        {
-          "level": "STOP POINT 2 (Quádrupla Forte com Sassuolo na Itália)",
-          "multiplier": 2.38,
-          "legs": [
-            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
-            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
           ],
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa Top 5 com Brasileirão & Bombonera)",
-          "multiplier": 3.48,
+          "level": "STOP POINT 2 (Quádrupla Forte com Inglaterra)",
+          "multiplier": 2.54,
           "legs": [
-            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
-            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
+            "Burnley x Wolverhampton: Mais de 1.5 Gols (@1.24)"
+          ],
+          "status": "PENDING"
+        },
+        {
+          "level": "STOP POINT 3 (Múltipla Completa com Brasileirão & Bombonera)",
+          "multiplier": 3.72,
+          "legs": [
+            "Eintracht Frankfurt x Colônia: Hipótese Dupla 1X (@1.316)",
+            "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
+            "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
+            "Burnley x Wolverhampton: Mais de 1.5 Gols (@1.24)",
             "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)",
             "Boca Juniors x Talleres: Boca Juniors ou Empate (1X @1.20)"
           ],
@@ -158,11 +158,11 @@
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & América do Sul)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada)",
       "type": "SAFE+",
-      "multiplier": 3.98,
+      "multiplier": 3.78,
       "legs": [
-        "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X) + Mais de 1.5 Gols (@1.50)",
+        "Eintracht Frankfurt x Colônia: Ambas as Equipas Marcam - Sim (@1.32)",
         "Mirassol x Internacional: Mirassol ou Empate (1X @1.38)",
         "Boca Juniors x Talleres: Boca Juniors Vence (@1.72)",
         "Frosinone x Sassuolo: Sassuolo ou Empate (X2 @1.42)"
@@ -177,19 +177,6 @@
         "Eintracht Frankfurt x Colônia: Frankfurt Vence + Ambos Marcam (@3.20)",
         "Deportivo La Coruña x Levante: Deportivo Vence + Mais de 1.5 Gols (@2.50)",
         "Boca Juniors x Talleres: Boca Juniors Vence + Menos de 3.5 Gols (@1.70)"
-      ],
-      "status": "PENDING"
-    },
-    {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima de Sexta-Feira)",
-      "type": "APOSENTAR_O_NETO",
-      "multiplier": 94.50,
-      "legs": [
-        "Eintracht Frankfurt x Colônia: Frankfurt Vence + Over 2.5 (@2.20)",
-        "Frosinone x Sassuolo: Sassuolo Vence ou Empate + Ambos Marcam (@2.30)",
-        "Deportivo x Levante: Deportivo Vence + Ambos Marcam (@3.40)",
-        "Burnley x Wolves: Ambos Marcam - Sim (@1.75)",
-        "Mirassol x Internacional: Empate no Tempo Normal (@3.10)"
       ],
       "status": "PENDING"
     }
