@@ -1,53 +1,46 @@
 {
   "date": "2026-10-16",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V1",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V2",
   "status": "PENDING",
+  "notes": "Grade revisada em 16/10 após confirmação do adiamento de toda a rodada da Saudi Pro League (Al-Riyadh x Al-Hilal e Al-Ittihad x Al-Shabab remarcados para 19/12 por fechamento de espaço aéreo regional). Substitutos de altíssima convicção inseridos: Eintracht Frankfurt 1X (@1.26) assume o Soros Dia 3, Boca Juniors na Bombonera e Burnley x Wolves na Inglaterra.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Europa, Arábia & Brasileirão)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Bundesliga, La Liga, Serie A, Brasileirão & Bombonera)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.68,
-    "philosophy": "Reunião das melhores oportunidades de altíssima convicção das ligas de sexta-feira (Bundesliga, La Liga, Serie A, Saudi League e Brasileirão), divididas por Turnos de Horário.",
+    "multiplierGlobal": 5.18,
+    "philosophy": "Reunião das melhores oportunidades de altíssima convicção das ligas de sexta-feira na Europa e América do Sul, divididas por Turnos de Horário.",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO / ARÁBIA & BUNDESLIGA (15:00 - 15:30 BRT)",
-        "multiplier": 1.84,
-        "notes": "Líder invicto Al-Hilal na Arábia e abertura da rodada alemã com o Frankfurt no Deutsche Bank Park. Liquida às 17:30.",
+        "clusterName": "🥪 TURNO 1 — TARDE / ABERTURA EUROPEIA (15:30 - 15:45 BRT)",
+        "multiplier": 1.51,
+        "notes": "Frankfurt no Deutsche Bank Park e Sassuolo visitando Frosinone. Liquidação rápida às 17:45.",
         "legs": [
-          "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
           "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
-          "Al-Ittihad x Al-Shabab: Mais de 1.5 Gols no Jogo (@1.20)"
+          "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
         ]
       },
       {
-        "clusterName": "🌆 TURNO 2 — TARDE / GRANDES LIGAS (15:45 - 16:00 BRT)",
+        "clusterName": "🌆 TURNO 2 — TARDE / ESPANHA & INGLATERRA (16:00 BRT)",
         "multiplier": 1.95,
-        "notes": "Abertura da rodada na Itália e Espanha com fortes mandantes e ataques consistentes.",
+        "notes": "Dépor fortíssimo no Riazor, duelo quente em Turf Moor e Frankfurt blindado.",
         "legs": [
-          "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
           "Deportivo La Coruña x Levante: Deportivo La Coruña ou Empate (1X @1.25)",
+          "Burnley x Wolverhampton: Mais de 1.5 Gols no Jogo (@1.24)",
           "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO A & B (20:00 - 20:30 BRT)",
-        "multiplier": 1.58,
-        "notes": "Confrontos decisivos de sobrevivência e acesso no Maião e na Ilha do Retiro blindados por Under seguro.",
+        "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO & BOMBONERA (20:00 - 21:30 BRT)",
+        "multiplier": 1.76,
+        "notes": "Confrontos de tensão no Maião, Ilha do Retiro e La Bombonera.",
         "legs": [
           "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)",
           "Sport x Fortaleza: Menos de 3.5 Gols no Jogo (@1.20)",
-          "Sport x Fortaleza: Sport ou Empate (Dupla Chance 1X @1.08)"
+          "Boca Juniors x Talleres: Boca Juniors ou Empate (Dupla Chance 1X @1.20)"
         ]
       }
     ],
     "selections": [
-      {
-        "match": "Al-Riyadh x Al-Hilal (15:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Al-Hilal Vence (Moneyline)",
-        "odd": 1.26,
-        "status": "PENDING"
-      },
       {
         "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
         "cluster": "Turno 1",
@@ -56,15 +49,8 @@
         "status": "PENDING"
       },
       {
-        "match": "Al-Ittihad x Al-Shabab (15:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
         "match": "Frosinone x Sassuolo (15:45 BRT)",
-        "cluster": "Turno 2",
+        "cluster": "Turno 1",
         "market": "Sassuolo 1+ Gol (Team Total Over 0.5)",
         "odd": 1.24,
         "status": "PENDING"
@@ -74,6 +60,13 @@
         "cluster": "Turno 2",
         "market": "Deportivo La Coruña ou Empate (1X)",
         "odd": 1.25,
+        "status": "PENDING"
+      },
+      {
+        "match": "Burnley x Wolverhampton (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.24,
         "status": "PENDING"
       },
       {
@@ -96,6 +89,13 @@
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.20,
         "status": "PENDING"
+      },
+      {
+        "match": "Boca Juniors x Talleres (21:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Boca Juniors ou Empate (Dupla Chance 1X)",
+        "odd": 1.20,
+        "status": "PENDING"
       }
     ]
   },
@@ -105,12 +105,12 @@
     "multiplier": 1.26,
     "potentialReturn": 21.45,
     "status": "PENDING",
-    "notes": "Modelo Sniper Dia 3 de 30 (Odd > 1.25): Al-Hilal Vence (@1.26) [Príncipe Turki bin Abdul Aziz]. Al-Hilal líder isolado com 100% de aproveitamento sob Simone Inzaghi contra o modesto Al-Riyadh.",
+    "notes": "Modelo Sniper Dia 3 de 30 (Odd > 1.25): Eintracht Frankfurt ou Empate (1X @1.26) [Deutsche Bank Park]. Frankfurt pressionado em casa contra o Colônia desfigurado por lesões (sem Hübers, Skhiri, Dallinga e Ache). Assume o Soros após adiamento oficial da liga saudita.",
     "selections": [
       {
-        "match": "Al-Riyadh x Al-Hilal",
-        "competition": "Saudi Pro League (15:00 BRT)",
-        "market": "Al-Hilal Vence (Moneyline)",
+        "match": "Eintracht Frankfurt x Colônia",
+        "competition": "Bundesliga (15:30 BRT)",
+        "market": "Eintracht Frankfurt ou Empate (Dupla Chance 1X)",
         "odd": 1.26,
         "status": "PENDING"
       }
@@ -122,10 +122,10 @@
       "type": "SAFE",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Tripla Âncora Blindada — Tarde Europeia e Saudita)",
+          "level": "STOP POINT 1 (Tripla Âncora Blindada — Tarde Europeia)",
           "multiplier": 1.92,
           "legs": [
-            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
             "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)"
           ],
@@ -135,7 +135,7 @@
           "level": "STOP POINT 2 (Quádrupla Forte com Sassuolo na Itália)",
           "multiplier": 2.38,
           "legs": [
-            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
             "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
@@ -143,52 +143,52 @@
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa Top 5 com Brasileirão)",
-          "multiplier": 2.90,
+          "level": "STOP POINT 3 (Múltipla Completa Top 5 com Brasileirão & Bombonera)",
+          "multiplier": 3.48,
           "legs": [
-            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)",
             "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
             "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
             "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
-            "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)"
+            "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)",
+            "Boca Juniors x Talleres: Boca Juniors ou Empate (1X @1.20)"
           ],
           "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & Brasil)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & América do Sul)",
       "type": "SAFE+",
-      "multiplier": 4.28,
+      "multiplier": 3.98,
       "legs": [
-        "Al-Riyadh x Al-Hilal: Al-Hilal Vence + Mais de 1.5 Gols (@1.44)",
         "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X) + Mais de 1.5 Gols (@1.50)",
         "Mirassol x Internacional: Mirassol ou Empate (1X @1.38)",
-        "Al-Ittihad x Al-Shabab: Ambos Marcam - Sim (@1.44)"
+        "Boca Juniors x Talleres: Boca Juniors Vence (@1.72)",
+        "Frosinone x Sassuolo: Sassuolo ou Empate (X2 @1.42)"
       ],
       "status": "PENDING"
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
-      "multiplier": 14.00,
+      "multiplier": 13.60,
       "legs": [
-        "Al-Riyadh x Al-Hilal: Al-Hilal -1.5 Handicap Asiático (@1.75)",
         "Eintracht Frankfurt x Colônia: Frankfurt Vence + Ambos Marcam (@3.20)",
-        "Deportivo La Coruña x Levante: Deportivo Vence + Mais de 1.5 Gols (@2.50)"
+        "Deportivo La Coruña x Levante: Deportivo Vence + Mais de 1.5 Gols (@2.50)",
+        "Boca Juniors x Talleres: Boca Juniors Vence + Menos de 3.5 Gols (@1.70)"
       ],
       "status": "PENDING"
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima de Sexta-Feira)",
       "type": "APOSENTAR_O_NETO",
-      "multiplier": 118.50,
+      "multiplier": 94.50,
       "legs": [
-        "Al-Riyadh x Al-Hilal: Al-Hilal -1.5 AH (@1.75)",
         "Eintracht Frankfurt x Colônia: Frankfurt Vence + Over 2.5 (@2.20)",
         "Frosinone x Sassuolo: Sassuolo Vence ou Empate + Ambos Marcam (@2.30)",
         "Deportivo x Levante: Deportivo Vence + Ambos Marcam (@3.40)",
-        "Al-Ittihad x Al-Shabab: Al-Ittihad Vence + Mais de 2.5 Gols (@2.10)",
+        "Burnley x Wolves: Ambos Marcam - Sim (@1.75)",
         "Mirassol x Internacional: Empate no Tempo Normal (@3.10)"
       ],
       "status": "PENDING"
