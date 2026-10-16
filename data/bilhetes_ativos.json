@@ -1,140 +1,118 @@
 {
-  "date": "2026-10-15",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-15_V1",
-  "status": "LIQUIDATED",
+  "date": "2026-10-16",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-16_V1",
+  "status": "PENDING",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Europa League + Libertadores)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Europa, Arábia & Brasileirão)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.43,
-    "status": "HIT",
-    "philosophy": "Reunião de todas as melhores oportunidades de altíssima convicção da UEFA Europa League e Semifinal da Libertadores, divididas por Turnos de Horário.",
+    "multiplierGlobal": 5.68,
+    "philosophy": "Reunião das melhores oportunidades de altíssima convicção das ligas de sexta-feira (Bundesliga, La Liga, Serie A, Saudi League e Brasileirão), divididas por Turnos de Horário.",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO (13:45 BRT)",
-        "multiplier": 2.04,
-        "status": "HIT",
-        "notes": "Três jogos de abertura da Europa League com gigantes em campo. Liquida às 15:45.",
+        "clusterName": "🥪 TURNO 1 — ALMOÇO / ARÁBIA & BUNDESLIGA (15:00 - 15:30 BRT)",
+        "multiplier": 1.84,
+        "notes": "Líder invicto Al-Hilal na Arábia e abertura da rodada alemã com o Frankfurt no Deutsche Bank Park. Liquida às 17:30.",
         "legs": [
-          "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33) ➔ ✅ HIT (0x4)",
-          "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x4)",
-          "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28) ➔ ✅ HIT (2x1)"
+          "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+          "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+          "Al-Ittihad x Al-Shabab: Mais de 1.5 Gols no Jogo (@1.20)"
         ]
       },
       {
-        "clusterName": "🌆 TURNO 2 — TARDE / PRINCIPAL (16:00 BRT)",
-        "multiplier": 2.73,
-        "status": "HIT",
-        "notes": "Os 4 jogos de maior peso da tarde europeia reunidos em um único bilhete.",
+        "clusterName": "🌆 TURNO 2 — TARDE / GRANDES LIGAS (15:45 - 16:00 BRT)",
+        "multiplier": 1.95,
+        "notes": "Abertura da rodada na Itália e Espanha com fortes mandantes e ataques consistentes.",
         "legs": [
-          "Benfica x Celtic: Benfica Vence (@1.36) ➔ ✅ HIT (4x1)",
-          "Celta de Vigo x Juventus: Juventus ou Empate (Dupla Chance X2 @1.26) ➔ ✅ HIT (1x2)",
-          "Bournemouth x Sturm Graz: Bournemouth Vence (@1.35) ➔ ✅ HIT (3x0)",
-          "Hoffenheim x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.18) ➔ ✅ HIT (2x3)"
+          "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
+          "Deportivo La Coruña x Levante: Deportivo La Coruña ou Empate (1X @1.25)",
+          "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X @1.26)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE / LIBERTADORES (21:30 BRT)",
+        "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO A & B (20:00 - 20:30 BRT)",
         "multiplier": 1.58,
-        "status": "HIT",
-        "notes": "Jogo de ida da Semifinal da Copa Libertadores em La Plata.",
+        "notes": "Confrontos decisivos de sobrevivência e acesso no Maião e na Ilha do Retiro blindados por Under seguro.",
         "legs": [
-          "Estudiantes x Flamengo: Flamengo ou Empate (Dupla Chance X2 @1.30) ➔ ✅ HIT (0x0)",
-          "Estudiantes x Flamengo: Menos de 3.5 Gols no Jogo (@1.22) ➔ ✅ HIT (0x0)"
+          "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)",
+          "Sport x Fortaleza: Menos de 3.5 Gols no Jogo (@1.20)",
+          "Sport x Fortaleza: Sport ou Empate (Dupla Chance 1X @1.08)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Lech Poznań x Bayer Leverkusen (13:45 BRT)",
+        "match": "Al-Riyadh x Al-Hilal (15:00 BRT)",
         "cluster": "Turno 1",
-        "market": "Bayer Leverkusen Vence (Moneyline)",
-        "odd": 1.33,
-        "status": "HIT",
-        "result": "0 x 4"
+        "market": "Al-Hilal Vence (Moneyline)",
+        "odd": 1.26,
+        "status": "PENDING"
       },
       {
-        "match": "RB Salzburg x Milan (13:45 BRT)",
+        "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
+        "cluster": "Turno 1",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.22,
+        "status": "PENDING"
+      },
+      {
+        "match": "Al-Ittihad x Al-Shabab (15:00 BRT)",
         "cluster": "Turno 1",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.20,
-        "status": "HIT",
-        "result": "0 x 4"
+        "status": "PENDING"
       },
       {
-        "match": "AZ Alkmaar x Hapoel Be'er Sheva (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "AZ Alkmaar Vence (Moneyline)",
-        "odd": 1.28,
-        "status": "HIT",
-        "result": "2 x 1"
-      },
-      {
-        "match": "Benfica x Celtic (16:00 BRT)",
+        "match": "Frosinone x Sassuolo (15:45 BRT)",
         "cluster": "Turno 2",
-        "market": "Benfica Vence (Moneyline)",
-        "odd": 1.36,
-        "status": "HIT",
-        "result": "4 x 1"
+        "market": "Sassuolo 1+ Gol (Team Total Over 0.5)",
+        "odd": 1.24,
+        "status": "PENDING"
       },
       {
-        "match": "Celta de Vigo x Juventus (16:00 BRT)",
+        "match": "Deportivo La Coruña x Levante (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Juventus ou Empate (Dupla Chance X2)",
+        "market": "Deportivo La Coruña ou Empate (1X)",
+        "odd": 1.25,
+        "status": "PENDING"
+      },
+      {
+        "match": "Eintracht Frankfurt x Colônia (15:30 BRT)",
+        "cluster": "Turno 2",
+        "market": "Eintracht Frankfurt ou Empate (1X)",
         "odd": 1.26,
-        "status": "HIT",
-        "result": "1 x 2"
+        "status": "PENDING"
       },
       {
-        "match": "Bournemouth x Sturm Graz (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Bournemouth Vence (Moneyline)",
-        "odd": 1.35,
-        "status": "HIT",
-        "result": "3 x 0"
-      },
-      {
-        "match": "Hoffenheim x Beşiktaş (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.18,
-        "status": "HIT",
-        "result": "2 x 3"
-      },
-      {
-        "match": "Estudiantes x Flamengo (21:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Flamengo ou Empate (Dupla Chance X2)",
-        "odd": 1.30,
-        "status": "HIT",
-        "result": "0 x 0"
-      },
-      {
-        "match": "Estudiantes x Flamengo (21:30 BRT)",
+        "match": "Mirassol x Internacional (20:00 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.22,
-        "status": "HIT",
-        "result": "0 x 0"
+        "status": "PENDING"
+      },
+      {
+        "match": "Sport x Fortaleza (20:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "Menos de 3.5 Gols no Jogo",
+        "odd": 1.20,
+        "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 2,
-    "stake": 12.80,
-    "multiplier": 1.33,
-    "potentialReturn": 17.02,
-    "actualReturn": 17.02,
-    "status": "HIT",
-    "notes": "Modelo Sniper Dia 2 de 30 (Odd > 1.25): Bayer Leverkusen Vence (@1.33) [Poznań Stadium]. Abismo técnico dos comandados de Xabi Alonso contra o vice-líder polonês. Placar: 0x4.",
+    "day": 3,
+    "stake": 17.02,
+    "multiplier": 1.26,
+    "potentialReturn": 21.45,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 3 de 30 (Odd > 1.25): Al-Hilal Vence (@1.26) [Príncipe Turki bin Abdul Aziz]. Al-Hilal líder isolado com 100% de aproveitamento sob Simone Inzaghi contra o modesto Al-Riyadh.",
     "selections": [
       {
-        "match": "Lech Poznań x Bayer Leverkusen",
-        "competition": "UEFA Europa League (13:45 BRT)",
-        "market": "Bayer Leverkusen Vence (Moneyline)",
-        "odd": 1.33,
-        "status": "HIT",
-        "result": "0 x 4"
+        "match": "Al-Riyadh x Al-Hilal",
+        "competition": "Saudi Pro League (15:00 BRT)",
+        "market": "Al-Hilal Vence (Moneyline)",
+        "odd": 1.26,
+        "status": "PENDING"
       }
     ]
   },
@@ -142,181 +120,168 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Pinnacle)",
       "type": "SAFE",
-      "status": "HIT",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Tripla Âncora Blindada — Turno do Almoço)",
-          "multiplier": 1.88,
+          "level": "STOP POINT 1 (Tripla Âncora Blindada — Tarde Europeia e Saudita)",
+          "multiplier": 1.92,
           "legs": [
-            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33) ➔ ✅ HIT (0x4)",
-            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28) ➔ ✅ HIT (2x1)",
-            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x4)"
+            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte com Benfica na Luz)",
-          "multiplier": 2.55,
+          "level": "STOP POINT 2 (Quádrupla Forte com Sassuolo na Itália)",
+          "multiplier": 2.38,
           "legs": [
-            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33) ➔ ✅ HIT (0x4)",
-            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28) ➔ ✅ HIT (2x1)",
-            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x4)",
-            "Benfica x Celtic: Benfica Vence (@1.36) ➔ ✅ HIT (4x1)"
+            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
+            "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa Top 5 Europa League)",
-          "multiplier": 3.21,
+          "level": "STOP POINT 3 (Múltipla Completa Top 5 com Brasileirão)",
+          "multiplier": 2.90,
           "legs": [
-            "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence (@1.33) ➔ ✅ HIT (0x4)",
-            "AZ Alkmaar x Hapoel Be'er Sheva: AZ Alkmaar Vence (@1.28) ➔ ✅ HIT (2x1)",
-            "RB Salzburg x Milan: Mais de 1.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x4)",
-            "Benfica x Celtic: Benfica Vence (@1.36) ➔ ✅ HIT (4x1)",
-            "Celta de Vigo x Juventus: Juventus ou Empate (X2 @1.26) ➔ ✅ HIT (1x2)"
+            "Al-Riyadh x Al-Hilal: Al-Hilal Vence (@1.26)",
+            "Eintracht Frankfurt x Colônia: Mais de 1.5 Gols no Jogo (@1.22)",
+            "Deportivo La Coruña x Levante: Deportivo ou Empate (1X @1.25)",
+            "Frosinone x Sassuolo: Sassuolo 1+ Gol (Team Total Over 0.5 @1.24)",
+            "Mirassol x Internacional: Menos de 3.5 Gols no Jogo (@1.22)"
           ],
-          "status": "HIT"
+          "status": "PENDING"
         }
       ]
     },
     {
-      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & Arábia)",
+      "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada Europa & Brasil)",
       "type": "SAFE+",
-      "multiplier": 2.43,
-      "status": "HIT",
-      "notes": "Al Ahli x Al Nassr foi adiado pela liga saudita (anulado/VOID @1.00). O bilhete liquida como GREEN com multiplicador recalculado de 1.60 * 1.52 = 2.43.",
+      "multiplier": 4.28,
       "legs": [
-        "Benfica x Celtic: Benfica Vence + Mais de 1.5 Gols (@1.60) ➔ ✅ HIT (4x1)",
-        "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen -1.0 Handicap (@1.52) ➔ ✅ HIT (0x4)",
-        "Al Ahli x Al Nassr: Ambos Marcam - Sim (@1.50) ➔ ⚪ VOID (Adiado)"
-      ]
+        "Al-Riyadh x Al-Hilal: Al-Hilal Vence + Mais de 1.5 Gols (@1.44)",
+        "Eintracht Frankfurt x Colônia: Eintracht Frankfurt ou Empate (1X) + Mais de 1.5 Gols (@1.50)",
+        "Mirassol x Internacional: Mirassol ou Empate (1X @1.38)",
+        "Al-Ittihad x Al-Shabab: Ambos Marcam - Sim (@1.44)"
+      ],
+      "status": "PENDING"
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
-      "multiplier": 12.90,
-      "status": "MISS",
+      "multiplier": 14.00,
       "legs": [
-        "Lech Poznań x Bayer Leverkusen: Bayer Leverkusen Vence + Mais de 2.5 Gols (@1.85) ➔ ✅ HIT (0x4)",
-        "Benfica x Celtic: Benfica Vence + Ambos Marcam (@3.10) ➔ ✅ HIT (4x1)",
-        "Estudiantes x Flamengo: Flamengo Vence (@2.25) ➔ ❌ MISS (0x0)"
-      ]
+        "Al-Riyadh x Al-Hilal: Al-Hilal -1.5 Handicap Asiático (@1.75)",
+        "Eintracht Frankfurt x Colônia: Frankfurt Vence + Ambos Marcam (@3.20)",
+        "Deportivo La Coruña x Levante: Deportivo Vence + Mais de 1.5 Gols (@2.50)"
+      ],
+      "status": "PENDING"
     },
     {
-      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima de Quinta-Feira)",
+      "name": "MÚLTIPLA 4 — APOSENTAR O NETO (Alavancagem Máxima de Sexta-Feira)",
       "type": "APOSENTAR_O_NETO",
-      "multiplier": 134.80,
-      "status": "MISS",
+      "multiplier": 118.50,
       "legs": [
-        "Lech Poznań x Leverkusen: Leverkusen -1.5 AH (@1.85) ➔ ✅ HIT (0x4)",
-        "Benfica x Celtic: Benfica Vence + Mais de 2.5 Gols (@2.05) ➔ ✅ HIT (4x1)",
-        "Salzburg x Milan: Milan Vence + Ambos Marcam (@3.30) ➔ ❌ MISS (0x4)",
-        "Celta x Juventus: Juventus Vence (@2.15) ➔ ✅ HIT (1x2)",
-        "Al Ahli x Al Nassr: Ambos Marcam + Mais de 2.5 Gols (@1.80) ➔ ⚪ VOID (Adiado)",
-        "Bournemouth x Sturm Graz: Bournemouth -1.5 AH (@1.95) ➔ ✅ HIT (3x0)",
-        "Estudiantes x Flamengo: Flamengo Vence + Menos de 3.5 Gols (@2.70) ➔ ❌ MISS (0x0)"
-      ]
+        "Al-Riyadh x Al-Hilal: Al-Hilal -1.5 AH (@1.75)",
+        "Eintracht Frankfurt x Colônia: Frankfurt Vence + Over 2.5 (@2.20)",
+        "Frosinone x Sassuolo: Sassuolo Vence ou Empate + Ambos Marcam (@2.30)",
+        "Deportivo x Levante: Deportivo Vence + Ambos Marcam (@3.40)",
+        "Al-Ittihad x Al-Shabab: Al-Ittihad Vence + Mais de 2.5 Gols (@2.10)",
+        "Mirassol x Internacional: Empate no Tempo Normal (@3.10)"
+      ],
+      "status": "PENDING"
     }
   ],
   "basquete": {
-    "coverage": "EuroLeague & NBA Preseason (15/10/2026)",
+    "coverage": "EuroLeague & NBA Preseason (16/10/2026)",
     "sorosTicket": {
-      "day": 2,
-      "stake": 13.30,
-      "multiplier": 1.33,
-      "potentialReturn": 17.69,
-      "actualReturn": 17.69,
-      "status": "HIT",
-      "notes": "Sniper do Basquete Dia 2: New York Knicks Acima de 109.5 Pontos (@1.33) [Madison Square Garden]. Knicks bateu 122 pontos contra 120 dos Raptors.",
+      "day": 3,
+      "stake": 17.69,
+      "multiplier": 1.30,
+      "potentialReturn": 23.00,
+      "status": "PENDING",
+      "notes": "Sniper do Basquete Dia 3 de 30: Panathinaikos Vence (@1.30) [Telekom Center Athens]. Campeão europeu sob Kendrick Nunn e Sloukas recebe o Hapoel Tel Aviv.",
       "selections": [
         {
-          "match": "Toronto Raptors @ New York Knicks",
-          "competition": "NBA Preseason (20:30 BRT)",
-          "market": "New York Knicks ➔ Acima de 109.5 Pontos (Team Total)",
-          "odd": 1.33,
-          "status": "HIT",
-          "result": "122 x 120 (122 pts)"
+          "match": "Panathinaikos Athens vs Hapoel Tel Aviv",
+          "competition": "EuroLeague (15:15 BRT)",
+          "market": "Panathinaikos Vence (Moneyline)",
+          "odd": 1.30,
+          "status": "PENDING"
         }
       ]
     },
     "supremoTicket": {
-      "name": "⭐ BILHETE SUPREMO BASQUETE — O FILÉ DA RODADA (EuroLeague + NBA)",
+      "name": "⭐ BILHETE SUPREMO BASQUETE — O FILÉ DA RODADA (EuroLeague + NBA Finale)",
       "type": "FILE_DO_DIA",
-      "multiplierGlobal": 5.32,
-      "status": "MISS",
+      "multiplierGlobal": 5.12,
       "philosophy": "Aplicação estrita da Diretriz V2.5 Team Total First e Spreads Positivos Elásticos.",
       "timeClusters": [
         {
-          "clusterName": "🥪 TURNO 1 — TARDE (EuroLeague / 14:45 - 15:45 BRT)",
-          "multiplier": 2.20,
-          "status": "HIT",
-          "notes": "Jogos europeus no meio da tarde com Real Madrid e Fenerbahçe.",
+          "clusterName": "🥪 TURNO 1 — TARDE (EuroLeague / 14:00 - 15:30 BRT)",
+          "multiplier": 2.18,
+          "notes": "Rodada de peso na Euroliga com Panathinaikos, Zalgiris e Barcelona.",
           "legs": [
-            "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32) ➔ ✅ HIT (111 pts)",
-            "Fenerbahçe vs Partizan: Fenerbahçe Vence V1 (@1.28) ➔ ✅ HIT (74x65)",
-            "Valencia vs Maccabi: Valencia Basket +5.5 Handicap (@1.30) ➔ ✅ HIT (88x91)"
+            "Panathinaikos vs Hapoel Tel Aviv: Panathinaikos Vence (@1.30)",
+            "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)",
+            "Zalgiris Kaunas vs Anadolu Efes: Zalgiris +5.5 Handicap (@1.28)"
           ]
         },
         {
-          "clusterName": "🌆 TURNO 2 — NOITE (NBA Preseason / 20:00 - 21:30 BRT)",
-          "multiplier": 2.42,
-          "status": "MISS",
-          "notes": "Jogos da NBA aplicando a regra de ouro de Team Total rebaixado.",
+          "clusterName": "🌆 TURNO 2 — NOITE (NBA Preseason Finale / 20:00 - 23:00 BRT)",
+          "multiplier": 2.35,
+          "notes": "Última noite de pré-temporada com foco em Team Total seguro dos mandantes.",
           "legs": [
-            "Toronto Raptors @ New York Knicks: Knicks Acima de 109.5 Pontos (@1.33) ➔ ✅ HIT (122 pts)",
-            "Minnesota Timberwolves @ Detroit Pistons: Timberwolves +6.5 Handicap (@1.35) ➔ ❌ MISS (106x128)",
-            "New Orleans Pelicans @ Dallas Mavericks: Mavericks Acima de 108.5 Pontos (@1.35) ➔ ❌ MISS (97 pts)"
+            "Denver Nuggets @ Los Angeles Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
+            "Portland Trail Blazers @ Golden State Warriors: Warriors Vence V1 (@1.30)",
+            "Boston Celtics @ Philadelphia 76ers: Celtics +6.5 Handicap (@1.35)"
           ]
         }
       ],
       "selections": [
         {
-          "match": "Real Madrid vs ASVEL Villeurbanne (15:45 BRT)",
+          "match": "Panathinaikos vs Hapoel Tel Aviv (15:15 BRT)",
           "cluster": "Turno 1",
-          "market": "Real Madrid Acima de 84.5 Pontos (Team Total)",
-          "odd": 1.32,
-          "status": "HIT",
-          "result": "111 x 92"
-        },
-        {
-          "match": "Fenerbahçe vs Partizan Belgrade (14:45 BRT)",
-          "cluster": "Turno 1",
-          "market": "Fenerbahçe Vence (Moneyline)",
-          "odd": 1.28,
-          "status": "HIT",
-          "result": "74 x 65"
-        },
-        {
-          "match": "Valencia Basket vs Maccabi Tel Aviv (15:30 BRT)",
-          "cluster": "Turno 1",
-          "market": "Valencia Basket +5.5 Spread Protegido",
+          "market": "Panathinaikos Vence (Moneyline)",
           "odd": 1.30,
-          "status": "HIT",
-          "result": "88 x 91"
+          "status": "PENDING"
         },
         {
-          "match": "Toronto Raptors @ New York Knicks (20:30 BRT)",
-          "cluster": "Turno 2",
-          "market": "New York Knicks Acima de 109.5 Pontos",
-          "odd": 1.33,
-          "status": "HIT",
-          "result": "122 x 120"
+          "match": "FC Barcelona vs Olympiacos (15:30 BRT)",
+          "cluster": "Turno 1",
+          "market": "FC Barcelona Acima de 81.5 Pontos (Team Total)",
+          "odd": 1.32,
+          "status": "PENDING"
         },
         {
-          "match": "Minnesota Timberwolves @ Detroit Pistons (20:00 BRT)",
+          "match": "Zalgiris Kaunas vs Anadolu Efes (14:00 BRT)",
+          "cluster": "Turno 1",
+          "market": "Zalgiris Kaunas +5.5 Spread Protegido",
+          "odd": 1.28,
+          "status": "PENDING"
+        },
+        {
+          "match": "Denver Nuggets @ Los Angeles Lakers (23:00 BRT)",
           "cluster": "Turno 2",
-          "market": "Minnesota Timberwolves +6.5 Handicap",
+          "market": "Los Angeles Lakers Acima de 107.5 Pontos",
+          "odd": 1.34,
+          "status": "PENDING"
+        },
+        {
+          "match": "Portland Trail Blazers @ Golden State Warriors (23:00 BRT)",
+          "cluster": "Turno 2",
+          "market": "Golden State Warriors Vence (Moneyline)",
+          "odd": 1.30,
+          "status": "PENDING"
+        },
+        {
+          "match": "Boston Celtics @ Philadelphia 76ers (20:00 BRT)",
+          "cluster": "Turno 2",
+          "market": "Boston Celtics +6.5 Handicap",
           "odd": 1.35,
-          "status": "MISS",
-          "result": "106 x 128"
-        },
-        {
-          "match": "New Orleans Pelicans @ Dallas Mavericks (21:30 BRT)",
-          "cluster": "Turno 2",
-          "market": "Dallas Mavericks Acima de 108.5 Pontos",
-          "odd": 1.35,
-          "status": "MISS",
-          "result": "97 x 101"
+          "status": "PENDING"
         }
       ]
     },
@@ -324,60 +289,59 @@
       {
         "name": "MÚLTIPLA 1 — SAFE BASQUETE (Boletim Oficial)",
         "type": "SAFE",
-        "status": "MISS",
         "stopPoints": [
           {
-            "level": "STOP POINT 1 (Dupla Âncora Team Total — Tarde e Noite)",
-            "multiplier": 1.76,
-            "status": "HIT",
+            "level": "STOP POINT 1 (Dupla Âncora EuroLeague & NBA)",
+            "multiplier": 1.72,
             "legs": [
-              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32) ➔ ✅ HIT (111 pts)",
-              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33) ➔ ✅ HIT (122 pts)"
-            ]
+              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
+              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)"
+            ],
+            "status": "PENDING"
           },
           {
-            "level": "STOP POINT 2 (Tripla Blindada NBA & EuroLeague)",
-            "multiplier": 2.38,
-            "status": "MISS",
+            "level": "STOP POINT 2 (Tripla Blindada)",
+            "multiplier": 2.27,
             "legs": [
-              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32) ➔ ✅ HIT (111 pts)",
-              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33) ➔ ✅ HIT (122 pts)",
-              "Pelicans @ Mavericks: Mavericks Acima de 108.5 Pontos (@1.35) ➔ ❌ MISS (97 pts)"
-            ]
+              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
+              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
+              "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)"
+            ],
+            "status": "PENDING"
           },
           {
             "level": "STOP POINT 3 (Quádrupla Completa)",
-            "multiplier": 3.21,
-            "status": "MISS",
+            "multiplier": 2.95,
             "legs": [
-              "Real Madrid vs ASVEL: Real Madrid Acima de 84.5 Pontos (@1.32) ➔ ✅ HIT (111 pts)",
-              "Raptors @ Knicks: Knicks Acima de 109.5 Pontos (@1.33) ➔ ✅ HIT (122 pts)",
-              "Pelicans @ Mavericks: Mavericks Acima de 108.5 Pontos (@1.35) ➔ ❌ MISS (97 pts)",
-              "Timberwolves @ Pistons: Timberwolves +6.5 Spread (@1.35) ➔ ❌ MISS (106x128)"
-            ]
+              "Panathinaikos vs Hapoel: Panathinaikos Vence (@1.30)",
+              "Nuggets @ Lakers: Lakers Acima de 107.5 Pontos (@1.34)",
+              "FC Barcelona vs Olympiacos: Barcelona Acima de 81.5 Pontos (@1.32)",
+              "Blazers @ Warriors: Warriors Vence (@1.30)"
+            ],
+            "status": "PENDING"
           }
         ]
       },
       {
         "name": "MÚLTIPLA 2 — SAFE+ BASQUETE (Alavancagem Balanceada)",
         "type": "SAFE+",
-        "multiplier": 3.25,
-        "status": "MISS",
+        "multiplier": 3.12,
         "legs": [
-          "Toronto Raptors @ New York Knicks: Knicks -6.5 Handicap (@1.82) ➔ ❌ MISS (122x120)",
-          "Real Madrid vs ASVEL: Real Madrid -10.5 Handicap (@1.78) ➔ ✅ HIT (111x92)"
-        ]
+          "Panathinaikos vs Hapoel: Panathinaikos -7.5 Handicap (@1.75)",
+          "FC Barcelona vs Olympiacos: Barcelona -4.5 Handicap (@1.78)"
+        ],
+        "status": "PENDING"
       },
       {
         "name": "MÚLTIPLA 3 — SUPER ATAQUE BASQUETE",
         "type": "ATTACK",
-        "multiplier": 10.60,
-        "status": "MISS",
+        "multiplier": 9.80,
         "legs": [
-          "Raptors @ Knicks: Knicks Vence + Mais de 220.5 Pontos (@2.60) ➔ ✅ HIT (122x120, 242 pts)",
-          "Pelicans @ Mavericks: Mavericks Vence + Mais de 218.5 Pontos (@2.45) ➔ ❌ MISS (97x101)",
-          "Real Madrid vs ASVEL: Real Madrid Acima de 92.5 Pontos (@1.66) ➔ ✅ HIT (111 pts)"
-        ]
+          "Panathinaikos vs Hapoel: Panathinaikos Vence + Mais de 164.5 Pontos (@2.35)",
+          "Nuggets @ Lakers: Lakers Vence + Mais de 222.5 Pontos (@2.50)",
+          "FC Barcelona vs Olympiacos: Barcelona Acima de 88.5 Pontos (@1.68)"
+        ],
+        "status": "PENDING"
       }
     ]
   }
