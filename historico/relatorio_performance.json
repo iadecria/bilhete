@@ -1,27 +1,43 @@
 {
-  "updatedAt": "2026-10-16T01:15:00-03:00",
+  "updatedAt": "2026-10-17T09:35:00-03:00",
   "kpis": {
-    "totalRounds": 6,
-    "totalTickets": 38,
-    "greenTickets": 30,
-    "redTickets": 8,
-    "winRateGlobal": "78.9%",
-    "safeWinRate": "90.0%",
-    "safePlusWinRate": "71.4%",
-    "sorosCurrentDay": 3,
-    "sorosCurrentStake": 17.02,
-    "sorosBasketballDay": 3,
-    "sorosBasketballStake": 17.69,
-    "profitFactor": 3.85
+    "totalRounds": 7,
+    "totalTickets": 48,
+    "greenTickets": 36,
+    "redTickets": 12,
+    "winRateGlobal": "75.0%",
+    "safeWinRate": "88.5%",
+    "safePlusWinRate": "68.2%",
+    "sorosCurrentDay": 4,
+    "sorosCurrentStake": 22.40,
+    "sorosBasketballDay": 1,
+    "sorosBasketballStake": 10.00,
+    "profitFactor": 3.62
   },
   "chartData": [
     { "date": "11/10", "banca": 37.17, "lucro": 18.77, "winRate": 100 },
     { "date": "12/10", "banca": 74.34, "lucro": 37.17, "winRate": 100 },
     { "date": "13/10", "banca": 10.00, "lucro": -74.34, "winRate": 50 },
     { "date": "14/10", "banca": 36.10, "lucro": 26.10, "winRate": 90 },
-    { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 }
+    { "date": "15/10", "banca": 68.91, "lucro": 32.81, "winRate": 80 },
+    { "date": "16/10", "banca": 87.11, "lucro": 18.20, "winRate": 70 }
   ],
   "history": [
+    {
+      "date": "2026-10-16",
+      "sport": "Multi-Sport (Bundesliga, La Liga, Brasileirão & EuroLeague)",
+      "totalTickets": 10,
+      "greens": 6,
+      "reds": 4,
+      "highlights": [
+        "Múltipla 1 SAFE Futebol 6/6 GREEN TOTAL NOS 3 STOP POINTS (@3.72)",
+        "Soros Futebol Dia 3 GREEN (@1.316 ➔ R$ 22,40 - Avança para Dia 4)",
+        "Turno 1 Abertura Europeia Futebol GREEN (@1.63)",
+        "Turno 3 Brasileirão & Bombonera 3/3 GREEN (@1.76)",
+        "Filé do Dia Futebol com 7 de 8 Acertos (87.5% de taxa)",
+        "Sucesso em Celtics +6.5, Warriors ML e Barcelona +8.5 no Basquete"
+      ]
+    },
     {
       "date": "2026-10-15",
       "sport": "Multi-Sport (Europa League, Libertadores & EuroLeague)",
