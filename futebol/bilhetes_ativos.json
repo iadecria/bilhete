@@ -1,7 +1,8 @@
 {
   "date": "2026-10-17",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-17_V1_SATURDAY_PREMIUM",
-  "status": "PENDING",
+  "status": "SETTLED",
+  "settlementDate": "2026-10-18T12:20:00-03:00",
   "notes": "Super Sábado Europeu & Noite de Brasileirão Série A. Grade calibrada com foco em Manchester City no Etihad, Bayern x Leipzig na Allianz Arena, Barcelona visitando o Betis e Botafogo no Nilton Santos.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Premier League, Bundesliga, La Liga & Brasileirão)",
@@ -9,38 +10,41 @@
     "sport": "Futebol",
     "multiplierGlobal": 5.92,
     "philosophy": "Reunião das melhores oportunidades matemáticas de altíssima convicção das ligas de sábado, divididas por Turnos de Horário com blindagem anti-variância.",
-    "status": "PENDING",
+    "status": "HIT",
     "timeClusters": [
       {
         "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (11:00 - 11:15 BRT)",
         "multiplier": 1.76,
+        "status": "HIT",
         "notes": "City no Etihad contra Ipswich, Liverpool visitando Brentford e Villarreal no La Cerámica.",
         "legs": [
-          "Manchester City x Ipswich Town: Manchester City Vence (ML @1.24)",
-          "Brentford x Liverpool: Liverpool ou Empate (Dupla Chance X2 @1.25)",
-          "Villarreal x Elche: Villarreal ou Empate (Dupla Chance 1X @1.14)"
+          "Manchester City x Ipswich Town: Manchester City Vence (ML @1.24) [HIT 3x2]",
+          "Brentford x Liverpool: Liverpool ou Empate (Dupla Chance X2 @1.25) [HIT 1x2]",
+          "Villarreal x Elche: Villarreal ou Empate (Dupla Chance 1X @1.14) [HIT 0x0]"
         ]
       },
       {
         "clusterName": "🌆 TURNO 2 — TARDE / CLÁSSICOS EUROPEUS (13:30 - 15:45 BRT)",
         "multiplier": 1.95,
+        "status": "PARTIAL_MISS",
         "notes": "Gols em Munique no clássico Bayern x Leipzig, Barça no Benito Villamarín e Roma no Olimpico.",
         "legs": [
-          "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16)",
-          "Real Betis x Barcelona: Barcelona ou Empate (Dupla Chance X2 @1.22)",
-          "Roma x Genoa: Roma ou Empate (Dupla Chance 1X @1.21)",
-          "1. FC Union Berlin x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.14)"
+          "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16) [HIT 6x1]",
+          "Real Betis x Barcelona: Barcelona ou Empate (Dupla Chance X2 @1.22) [HIT 2x5]",
+          "Roma x Genoa: Roma ou Empate (Dupla Chance 1X @1.21) [HIT 2x0]",
+          "1. FC Union Berlin x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.14) [MISS 0x0]"
         ]
       },
       {
         "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO SÉRIE A (18:00 - 21:00 BRT)",
         "multiplier": 1.72,
+        "status": "HIT",
         "notes": "Botafogo no Nilton Santos contra Chapecoense e controle de gols no MorumBIS.",
         "legs": [
-          "Botafogo x Chapecoense: Botafogo ou Empate (Dupla Chance 1X @1.14)",
-          "Botafogo x Chapecoense: Botafogo 1+ Gol (Team Total Over 0.5 @1.12)",
-          "São Paulo x Vasco da Gama: Menos de 3.5 Gols no Jogo (@1.20)",
-          "Atlético-MG x Coritiba: Atlético-MG ou Empate (Dupla Chance 1X @1.12)"
+          "Botafogo x Chapecoense: Botafogo ou Empate (Dupla Chance 1X @1.14) [HIT 1x0]",
+          "Botafogo x Chapecoense: Botafogo 1+ Gol (Team Total Over 0.5 @1.12) [HIT 1x0]",
+          "São Paulo x Vasco da Gama: Menos de 3.5 Gols no Jogo (@1.20) [HIT 1x0]",
+          "Atlético-MG x Coritiba: Atlético-MG ou Empate (Dupla Chance 1X @1.12) [HIT 1x0]"
         ]
       }
     ],
@@ -50,56 +54,64 @@
         "cluster": "Turno 1",
         "market": "Manchester City Vence (1)",
         "odd": 1.24,
-        "status": "PENDING"
+        "result": "3x2",
+        "status": "HIT"
       },
       {
         "match": "Brentford x Liverpool (11:00 BRT)",
         "cluster": "Turno 1",
         "market": "Liverpool ou Empate (X2)",
         "odd": 1.25,
-        "status": "PENDING"
+        "result": "1x2",
+        "status": "HIT"
       },
       {
         "match": "Villarreal x Elche (11:15 BRT)",
         "cluster": "Turno 1",
         "market": "Villarreal ou Empate (1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "result": "0x0",
+        "status": "HIT"
       },
       {
         "match": "Bayern München x RB Leipzig (13:30 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
         "odd": 1.16,
-        "status": "PENDING"
+        "result": "6x1",
+        "status": "HIT"
       },
       {
         "match": "Real Betis x Barcelona (13:30 BRT)",
         "cluster": "Turno 2",
         "market": "Barcelona ou Empate (X2)",
         "odd": 1.22,
-        "status": "PENDING"
+        "result": "2x5",
+        "status": "HIT"
       },
       {
         "match": "Roma x Genoa (15:45 BRT)",
         "cluster": "Turno 2",
         "market": "Roma ou Empate (1X)",
         "odd": 1.21,
-        "status": "PENDING"
+        "result": "2x0",
+        "status": "HIT"
       },
       {
         "match": "Botafogo x Chapecoense (18:00 BRT)",
         "cluster": "Turno 3",
         "market": "Botafogo ou Empate (1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "result": "1x0",
+        "status": "HIT"
       },
       {
         "match": "São Paulo x Vasco da Gama (21:00 BRT)",
         "cluster": "Turno 3",
         "market": "Menos de 3.5 Gols no Jogo",
         "odd": 1.20,
-        "status": "PENDING"
+        "result": "1x0",
+        "status": "HIT"
       }
     ]
   },
@@ -108,7 +120,8 @@
     "stake": 22.40,
     "multiplier": 1.24,
     "potentialReturn": 27.78,
-    "status": "PENDING",
+    "actualReturn": 27.78,
+    "status": "HIT",
     "notes": "Modelo Sniper Dia 4 de 30 (Melbet/Pinnacle Oficial): Manchester City Vence (ML @1.24) [Etihad Stadium]. Máxima disparidade técnica da Premier League, Haaland descansado e Ipswich fragilizado na zona defensiva.",
     "selections": [
       {
@@ -116,7 +129,8 @@
         "competition": "Premier League (11:00 BRT)",
         "market": "Manchester City Vence (1)",
         "odd": 1.24,
-        "status": "PENDING"
+        "result": "3x2",
+        "status": "HIT"
       }
     ]
   },
@@ -124,40 +138,40 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Melbet/Pinnacle)",
       "type": "SAFE",
-      "status": "PENDING",
+      "status": "HIT",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora Blindada — Almoço Europeu)",
           "multiplier": 1.54,
           "legs": [
-            "Manchester City x Ipswich Town: Manchester City Vence (@1.24)",
-            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25)"
+            "Manchester City x Ipswich Town: Manchester City Vence (@1.24) [HIT 3x2]",
+            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25) [HIT 1x2]"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "STOP POINT 2 (Quádrupla Forte com Clássicos Europeus)",
           "multiplier": 2.18,
           "legs": [
-            "Manchester City x Ipswich Town: Manchester City Vence (@1.24)",
-            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25)",
-            "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16)",
-            "Real Betis x Barcelona: Barcelona ou Empate (X2 @1.22)"
+            "Manchester City x Ipswich Town: Manchester City Vence (@1.24) [HIT 3x2]",
+            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25) [HIT 1x2]",
+            "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16) [HIT 6x1]",
+            "Real Betis x Barcelona: Barcelona ou Empate (X2 @1.22) [HIT 2x5]"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa com Brasileirão)",
           "multiplier": 3.61,
           "legs": [
-            "Manchester City x Ipswich Town: Manchester City Vence (@1.24)",
-            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25)",
-            "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16)",
-            "Real Betis x Barcelona: Barcelona ou Empate (X2 @1.22)",
-            "Roma x Genoa: Roma ou Empate (1X @1.21)",
-            "Botafogo x Chapecoense: Botafogo Vence (@1.34)"
+            "Manchester City x Ipswich Town: Manchester City Vence (@1.24) [HIT 3x2]",
+            "Brentford x Liverpool: Liverpool ou Empate (X2 @1.25) [HIT 1x2]",
+            "Bayern München x RB Leipzig: Mais de 1.5 Gols no Jogo (@1.16) [HIT 6x1]",
+            "Real Betis x Barcelona: Barcelona ou Empate (X2 @1.22) [HIT 2x5]",
+            "Roma x Genoa: Roma ou Empate (1X @1.21) [HIT 2x0]",
+            "Botafogo x Chapecoense: Botafogo Vence (@1.34) [HIT 1x0]"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         }
       ]
     },
@@ -165,34 +179,37 @@
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada)",
       "type": "SAFE+",
       "multiplier": 3.42,
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "City venceu por apenas 1 gol (3x2), derrubando o handicap -1.5",
       "legs": [
-        "Manchester City x Ipswich Town: Manchester City -1.5 Handicap (@1.58)",
-        "Real Betis x Barcelona: Barcelona Vence (@1.45)",
-        "Botafogo x Chapecoense: Botafogo Vence + Menos de 4.5 Gols (@1.50)"
+        "Manchester City x Ipswich Town: Manchester City -1.5 Handicap (@1.58) [MISS 3x2]",
+        "Real Betis x Barcelona: Barcelona Vence (@1.45) [HIT 2x5]",
+        "Botafogo x Chapecoense: Botafogo Vence + Menos de 4.5 Gols (@1.50) [HIT 1x0]"
       ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA)",
       "type": "ATTACK",
       "multiplier": 8.75,
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "Botafogo 1x0 Chapecoense não atingiu o Over 1.5",
       "legs": [
-        "Bayern München x RB Leipzig: Bayern Vence + Ambos Marcam (@2.40)",
-        "Real Betis x Barcelona: Barcelona Vence + Mais de 1.5 Gols (@1.72)",
-        "Botafogo x Chapecoense: Botafogo Vence + Mais de 1.5 Gols (@1.68)"
+        "Bayern München x RB Leipzig: Bayern Vence + Ambos Marcam (@2.40) [HIT 6x1]",
+        "Real Betis x Barcelona: Barcelona Vence + Mais de 1.5 Gols (@1.72) [HIT 2x5]",
+        "Botafogo x Chapecoense: Botafogo Vence + Mais de 1.5 Gols (@1.68) [MISS 1x0]"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO)",
       "type": "NETO",
       "multiplier": 24.50,
-      "status": "PENDING",
+      "status": "MISS",
+      "missReason": "City venceu por 1 gol e Botafogo venceu por 1 gol (reembolso AH -1)",
       "legs": [
-        "Manchester City x Ipswich Town: Man City Vence por 2+ Gols (-1.5 AH @1.58)",
-        "Bayern München x RB Leipzig: Bayern Vence & Ambos Marcam (@2.40)",
-        "Real Betis x Barcelona: Barcelona Vence & Mais de 2.5 Gols (@2.15)",
-        "Botafogo x Chapecoense: Botafogo Vence por 2+ Gols (-1.0 AH @1.85)"
+        "Manchester City x Ipswich Town: Man City Vence por 2+ Gols (-1.5 AH @1.58) [MISS 3x2]",
+        "Bayern München x RB Leipzig: Bayern Vence & Ambos Marcam (@2.40) [HIT 6x1]",
+        "Real Betis x Barcelona: Barcelona Vence & Mais de 2.5 Gols (@2.15) [HIT 2x5]",
+        "Botafogo x Chapecoense: Botafogo Vence por 2+ Gols (-1.0 AH @1.85) [VOID 1x0]"
       ]
     }
   ]
