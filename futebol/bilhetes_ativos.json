@@ -1,14 +1,14 @@
 {
   "date": "2026-10-19",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-19_V3_STRICT_METHODOLOGY",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-19_V4_COMBO_NATIVO",
   "status": "PENDING",
-  "notes": "Segunda-feira de Premier League, La Liga, Liga Portugal e Brasileirão. Metodologia estrita: 6 partidas legítimas e aprovadas pelo pente-fino, com 1 seleção por jogo. Zero resgate de jogos descartados.",
+  "notes": "Segunda-feira de Premier League, La Liga, Liga Portugal e Brasileirão Série A & B. Integração dos mercados nativos de combo da casa (Resultado + Total: 1X e TAb 3.5) garantindo 1 seleção limpa por jogo, odd turbinada e 100% de aceitação sem jogos descartados.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Premier League, La Liga, Liga Portugal & Brasileirão)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 3.30,
-    "philosophy": "6 partidas de alta convicção e rigor metodológico absoluto (1 aposta por jogo). Descarte integral e preservado de jogos italianos imprevisíveis.",
+    "multiplierGlobal": 5.37,
+    "philosophy": "6 partidas de alta convicção e rigor metodológico absoluto. Uso do mercado nativo 'Resultado + Total' (1X e TAb 3.5) para máxima alavancagem com 1 aposta por jogo. Descarte integral e preservado de jogos imprevisíveis.",
     "status": "PENDING",
     "timeClusters": [
       {
@@ -17,18 +17,18 @@
         "notes": "Gols no clássico turco, amplo favoritismo do Tottenham, controle tático em Getafe e força do Braga em casa.",
         "legs": [
           "Trabzonspor x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.26)",
-          "Tottenham Hotspur x Coventry City: Tottenham Vence (ML @1.45)",
+          "Tottenham Hotspur x Coventry City: Tottenham Vence (ML / V1 @1.45)",
           "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)",
           "SC Braga x Gil Vicente: SC Braga ou Empate (Dupla Chance 1X @1.14)"
         ]
       },
       {
         "clusterName": "🌙 TURNO 2 — NOITE / FUTEBOL BRASILEIRO (19:30 - 20:00 BRT)",
-        "multiplier": 1.35,
-        "notes": "Mando do Goiás na Serrinha pela Série B e Corinthians com must-win absoluto contra o Vitória na Neo Química Arena.",
+        "multiplier": 2.19,
+        "notes": "Mercado nativo da casa 'Resultado + Total' (1X e TAb 3.5): blindagem do mando com limite de gols na Serrinha e na Neo Química Arena.",
         "legs": [
-          "Goiás x Náutico: Goiás ou Empate (Dupla Chance 1X @1.18)",
-          "Corinthians x Vitória: Corinthians ou Empate (Dupla Chance 1X @1.14)"
+          "Goiás x Náutico: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)",
+          "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
         ]
       }
     ],
@@ -64,15 +64,15 @@
       {
         "match": "Goiás x Náutico (19:30 BRT)",
         "cluster": "Turno 2",
-        "market": "Goiás ou Empate (1X)",
-        "odd": 1.18,
+        "market": "1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim)",
+        "odd": 1.48,
         "status": "PENDING"
       },
       {
         "match": "Corinthians x Vitória (20:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Corinthians ou Empate (1X)",
-        "odd": 1.14,
+        "market": "1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim)",
+        "odd": 1.48,
         "status": "PENDING"
       }
     ]
@@ -110,10 +110,10 @@
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial 100% Compatível)",
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Nativo)",
       "type": "SAFE",
       "status": "PENDING",
-      "notes": "Jogos distintos e legítimos. 100% de coerência com o pente-fino.",
+      "notes": "Stop points calibrados com mercados prontos da casa.",
       "stopPoints": [
         {
           "level": "STOP POINT 1 (Dupla Âncora Europeia — Tarde Europeia)",
@@ -125,26 +125,26 @@
           "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte com La Liga e Brasileirão)",
-          "multiplier": 2.22,
+          "level": "STOP POINT 2 (Quádrupla Forte com La Liga e Neo Química Arena)",
+          "multiplier": 2.88,
           "legs": [
             "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
             "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14)",
             "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)",
-            "Corinthians x Vitória: Corinthians ou Empate (1X @1.14)"
+            "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
           ],
           "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa — 6 Jogos Legítimos)",
-          "multiplier": 3.30,
+          "multiplier": 5.37,
           "legs": [
             "Trabzonspor x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.26)",
             "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
             "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18)",
             "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14)",
-            "Goiás x Náutico: Goiás ou Empate (1X @1.18)",
-            "Corinthians x Vitória: Corinthians ou Empate (1X @1.14)"
+            "Goiás x Náutico: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)",
+            "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
           ],
           "status": "PENDING"
         }
@@ -153,36 +153,36 @@
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos Distintos)",
       "type": "SAFE+",
-      "multiplier": 3.81,
+      "multiplier": 4.08,
       "status": "PENDING",
       "legs": [
         "Tottenham Hotspur x Coventry City: Tottenham -1.0 Handicap Asiático (@1.70)",
-        "SC Braga x Gil Vicente: SC Braga Vence (@1.62)",
-        "Goiás x Náutico: Goiás Vence ou Empate (@1.18)"
+        "SC Braga x Gil Vicente: SC Braga Vence (ML @1.62)",
+        "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (3 Jogos Distintos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Valor — 3 Jogos Distintos)",
       "type": "ATTACK",
-      "multiplier": 5.92,
+      "multiplier": 7.25,
       "status": "PENDING",
       "legs": [
-        "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45)",
-        "SC Braga x Gil Vicente: SC Braga Vence (@1.62)",
-        "Corinthians x Vitória: Corinthians Vence (ML @1.70)"
+        "Tottenham Hotspur x Coventry City: Tottenham Vence + Mais de 2.5 Gols (V1 e TAc 2.5 - Sim @2.05)",
+        "SC Braga x Gil Vicente: SC Braga Vence + Menos de 3.5 Gols (V1 e TAb 3.5 - Sim @2.08)",
+        "Corinthians x Vitória: Corinthians Vence (V1 @1.70)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos Distintos)",
       "type": "NETO",
-      "multiplier": 13.01,
+      "multiplier": 15.53,
       "status": "PENDING",
-      "notes": "4 partidas diferentes de alto valor. Entra perfeitamente no boletim tradicional.",
+      "notes": "4 partidas de alto retorno com combos prontos da casa.",
       "legs": [
         "Tottenham Hotspur x Coventry City: Tottenham Vence por 2+ Gols (-1.5 AH @2.15)",
-        "SC Braga x Gil Vicente: SC Braga Vence (@1.62)",
-        "Goiás x Náutico: Goiás Vence (@1.78)",
-        "Corinthians x Vitória: Corinthians Vence (@1.70)"
+        "SC Braga x Gil Vicente: SC Braga Vence + Mais de 1.5 Gols (V1 e TAc 1.5 - Sim @1.95)",
+        "Goiás x Náutico: Goiás Vence (V1 @1.78)",
+        "Corinthians x Vitória: Corinthians Vence + Menos de 3.5 Gols (V1 e TAb 3.5 - Sim @2.08)"
       ]
     }
   ]
