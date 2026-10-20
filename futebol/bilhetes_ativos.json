@@ -1,122 +1,125 @@
 {
-  "date": "2026-10-19",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-19_V4_COMBO_NATIVO",
-  "status": "LIQUIDATED",
-  "notes": "Segunda-feira de Premier League, La Liga, Liga Portugal e Brasileirão Série A & B. Integração dos mercados nativos de combo da casa (Resultado + Total: 1X e TAb 3.5) garantindo 1 seleção limpa por jogo, odd turbinada e 100% de aceitação sem jogos descartados.",
+  "date": "2026-10-20",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-20_V1_CHAMPIONS_LEAGUE",
+  "status": "PENDING",
+  "notes": "Terça-feira épica de UEFA Champions League (Fase de Liga - 3ª Rodada) e encerramento da 34ª rodada do Brasileirão Série B. Aplicação estrita dos Quality Gates do FAS 3 V5.0: descarte cirúrgico de jogos com alta variância e blindagem por turnos horários.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Premier League, La Liga, Liga Portugal & Brasileirão)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Champions League & Brasileirão Série B)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.37,
-    "philosophy": "6 partidas de alta convicção e rigor metodológico absoluto. Uso do mercado nativo 'Resultado + Total' (1X e TAb 3.5) para máxima alavancagem com 1 aposta por jogo. Descarte integral e preservado de jogos imprevisíveis.",
-    "status": "MISS",
-    "missReason": "Zebra isolada em Braga: derrota caseira do SC Braga por 1x2 para o Gil Vicente com gol contra aos 72'. 5 de 6 seleções acertadas (83.3% de taxa de acerto).",
+    "multiplierGlobal": 3.77,
+    "philosophy": "6 seleções de altíssima convicção técnica e proteção estatística. Desmembramento estratégico em 3 turnos para antecipação de lucros e eliminação de variância.",
+    "status": "PENDING",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — TARDE EUROPEIA (14:00 - 16:15 BRT)",
-        "multiplier": 2.45,
-        "status": "MISS",
-        "notes": "Gols no clássico turco (2x0 ✅), amplo favoritismo do Tottenham (3x1 ✅), controle tático em Getafe (1x1 ✅), mas queda inesperada do Braga em casa (1x2 ❌).",
+        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 BRT)",
+        "multiplier": 1.25,
+        "notes": "Superioridade alemã do Dortmund em Baku diante do estreante Sabah.",
         "legs": [
-          "Trabzonspor x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.26) [HIT 2x0]",
-          "Tottenham Hotspur x Coventry City: Tottenham Vence (ML / V1 @1.45) [HIT 3x1]",
-          "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18) [HIT 1x1]",
-          "SC Braga x Gil Vicente: SC Braga ou Empate (Dupla Chance 1X @1.14) [MISS 1x2]"
+          "Sabah FK x Borussia Dortmund: Dortmund ou Empate (Dupla Chance X2 @1.12)",
+          "Sabah FK x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.20)"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 2 — NOITE / FUTEBOL BRASILEIRO (19:30 - 20:00 BRT)",
-        "multiplier": 2.19,
-        "status": "HIT",
-        "notes": "100% GREEN ABSOLUTO! Mercado nativo da casa 'Resultado + Total' (1X e TAb 3.5) funcionou à perfeição: blindagem do mando com limite de gols na Serrinha (0x0) e na Neo Química Arena (1x1).",
+        "clusterName": "🌆 TURNO 2 — TARDE CHAMPIONS LEAGUE ELITE (16:00 BRT)",
+        "multiplier": 1.95,
+        "notes": "Força máxima em casa do Man City e da Roma contra adversários vulneráveis, gols no clássico PSG x Barça e proteção de mando do Liverpool em Anfield.",
         "legs": [
-          "Goiás x Náutico: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 0x0]",
-          "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 1x1]"
+          "Manchester City x AEK Atenas: Manchester City Vence (ML / V1 @1.20)",
+          "AS Roma x Slovan Bratislava: AS Roma Vence (ML / V1 @1.22)",
+          "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16)",
+          "Liverpool FC x Villarreal CF: Liverpool ou Empate (Dupla Chance 1X @1.12)"
+        ]
+      },
+      {
+        "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO SÉRIE B (19:30 BRT)",
+        "multiplier": 1.48,
+        "notes": "Reta final da Série B no Estádio VGD com combo nativo blindado (1X e Menos de 3.5).",
+        "legs": [
+          "Londrina x Cuiabá: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Trabzonspor x Beşiktaş (14:00 BRT)",
+        "match": "Sabah FK x Borussia Dortmund (13:45 BRT)",
         "cluster": "Turno 1",
+        "market": "Dortmund ou Empate (X2)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Manchester City x AEK Atenas (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Manchester City Vence (1)",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "AS Roma x Slovan Bratislava (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "AS Roma Vence (1)",
+        "odd": 1.22,
+        "status": "PENDING"
+      },
+      {
+        "match": "Paris Saint-Germain x FC Barcelona (16:00 BRT)",
+        "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.26,
-        "result": "2x0",
-        "status": "HIT"
+        "odd": 1.16,
+        "status": "PENDING"
       },
       {
-        "match": "Tottenham Hotspur x Coventry City (16:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Tottenham Vence (1)",
-        "odd": 1.45,
-        "result": "3x1",
-        "status": "HIT"
-      },
-      {
-        "match": "Getafe x Rayo Vallecano (16:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.18,
-        "result": "1x1",
-        "status": "HIT"
-      },
-      {
-        "match": "SC Braga x Gil Vicente (16:15 BRT)",
-        "cluster": "Turno 1",
-        "market": "SC Braga ou Empate (1X)",
-        "odd": 1.14,
-        "result": "1x2",
-        "status": "MISS"
-      },
-      {
-        "match": "Goiás x Náutico (19:30 BRT)",
+        "match": "Liverpool FC x Villarreal CF (16:00 BRT)",
         "cluster": "Turno 2",
+        "market": "Liverpool ou Empate (1X)",
+        "odd": 1.12,
+        "status": "PENDING"
+      },
+      {
+        "match": "Londrina x Cuiabá (19:30 BRT)",
+        "cluster": "Turno 3",
         "market": "1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim)",
         "odd": 1.48,
-        "result": "0x0",
-        "status": "HIT"
-      },
-      {
-        "match": "Corinthians x Vitória (20:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim)",
-        "odd": 1.48,
-        "result": "1x1",
-        "status": "HIT"
+        "status": "PENDING"
       }
     ]
   },
   "sorosTicket": {
-    "day": 6,
-    "stake": 35.00,
-    "multiplier": 1.45,
-    "potentialReturn": 50.75,
-    "actualReturn": 50.75,
-    "status": "HIT",
-    "notes": "Modelo Sniper Dia 6 de 30 (Melbet/Pinnacle Oficial): Tottenham Hotspur Vence (ML @1.45) [Tottenham Hotspur Stadium]. Força máxima caseira dos Spurs confirma vitória sólida por 3x1 diante do Coventry City. 6º GREEN CONSECUTIVO! Avança para o Dia 7 com R$ 50,75.",
+    "day": 7,
+    "stake": 50.75,
+    "multiplier": 1.39,
+    "potentialReturn": 70.54,
+    "status": "PENDING",
+    "notes": "Modelo Sniper Dia 7 de 30 (Melbet/Pinnacle Oficial): Dupla Âncora Champions League. Manchester City Vence (ML @1.20) [Etihad Stadium] + Paris Saint-Germain x Barcelona: Mais de 1.5 Gols (@1.16) [Parc des Princes]. Odd combinada @1.39. Blindagem absoluta contra variância.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Tottenham Hotspur x Coventry City",
-        "competition": "Premier League (16:00 BRT)",
-        "market": "Tottenham Vence (1)",
-        "odd": 1.45,
-        "stake": 35.00,
-        "potentialReturn": 50.75,
-        "actualReturn": 50.75,
-        "status": "HIT",
+        "match": "Manchester City x AEK Atenas + PSG x Barcelona",
+        "competition": "UEFA Champions League (16:00 BRT)",
+        "market": "Man City Vence (@1.20) + PSG x Barça Mais de 1.5 Gols (@1.16)",
+        "odd": 1.39,
+        "stake": 50.75,
+        "potentialReturn": 70.54,
+        "status": "PENDING",
         "isPrimary": true,
-        "analysis": "Tottenham dominou e venceu por 3x1 com gols de Maddison, Marmoush e Davies."
+        "analysis": "City joga com força máxima no Etihad para se recuperar da rodada anterior, e PSG x Barça coloca frente a frente os ataques mais letais do continente com média superior a 4 gols/jogo."
       }
     ],
     "selections": [
       {
-        "match": "Tottenham Hotspur x Coventry City",
-        "competition": "Premier League (16:00 BRT)",
-        "market": "Tottenham Vence (1)",
-        "odd": 1.45,
-        "result": "3x1",
-        "status": "HIT"
+        "match": "Manchester City x AEK Atenas",
+        "competition": "UEFA Champions League (16:00 BRT)",
+        "market": "Manchester City Vence (1)",
+        "odd": 1.20,
+        "status": "PENDING"
+      },
+      {
+        "match": "Paris Saint-Germain x FC Barcelona",
+        "competition": "UEFA Champions League (16:00 BRT)",
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.16,
+        "status": "PENDING"
       }
     ]
   },
@@ -124,80 +127,78 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Nativo)",
       "type": "SAFE",
-      "status": "MISS",
-      "missReason": "Zebra do SC Braga em casa (1x2 Gil Vicente)",
-      "notes": "Stop points calibrados com mercados prontos da casa.",
+      "status": "PENDING",
+      "notes": "Stop points modulares com proteção matemática máxima.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Europeia — Tarde Europeia)",
-          "multiplier": 1.65,
+          "level": "STOP POINT 1 (Dupla Âncora Champions League)",
+          "multiplier": 1.39,
           "legs": [
-            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45) [HIT 3x1]",
-            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14) [MISS 1x2]"
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20)",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte com La Liga e Neo Química Arena)",
-          "multiplier": 2.88,
+          "level": "STOP POINT 2 (Quádrupla Forte Europeia)",
+          "multiplier": 1.90,
           "legs": [
-            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45) [HIT 3x1]",
-            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14) [MISS 1x2]",
-            "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18) [HIT 1x1]",
-            "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 1x1]"
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20)",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16)",
+            "AS Roma x Slovan Bratislava: AS Roma Vence (@1.22)",
+            "Liverpool FC x Villarreal CF: Liverpool ou Empate (1X @1.12)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         },
         {
           "level": "STOP POINT 3 (Múltipla Completa — 6 Jogos Legítimos)",
-          "multiplier": 5.37,
+          "multiplier": 3.77,
           "legs": [
-            "Trabzonspor x Beşiktaş: Mais de 1.5 Gols no Jogo (@1.26) [HIT 2x0]",
-            "Tottenham Hotspur x Coventry City: Tottenham Vence (@1.45) [HIT 3x1]",
-            "Getafe x Rayo Vallecano: Menos de 3.5 Gols no Jogo (@1.18) [HIT 1x1]",
-            "SC Braga x Gil Vicente: SC Braga ou Empate (1X @1.14) [MISS 1x2]",
-            "Goiás x Náutico: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 0x0]",
-            "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 1x1]"
+            "Sabah FK x Borussia Dortmund: Dortmund ou Empate (X2 @1.12)",
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20)",
+            "AS Roma x Slovan Bratislava: AS Roma Vence (@1.22)",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16)",
+            "Liverpool FC x Villarreal CF: Liverpool ou Empate (1X @1.12)",
+            "Londrina x Cuiabá: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48)"
           ],
-          "status": "MISS"
+          "status": "PENDING"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos Distintos)",
       "type": "SAFE+",
-      "multiplier": 4.08,
-      "status": "MISS",
-      "missReason": "SC Braga 1x2 Gil Vicente",
+      "multiplier": 3.43,
+      "status": "PENDING",
       "legs": [
-        "Tottenham Hotspur x Coventry City: Tottenham -1.0 Handicap Asiático (@1.70) [HIT 3x1]",
-        "SC Braga x Gil Vicente: SC Braga Vence (ML @1.62) [MISS 1x2]",
-        "Corinthians x Vitória: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [HIT 1x1]"
+        "Manchester City x AEK Atenas: Manchester City -1.5 Handicap Asiático (@1.55)",
+        "AS Roma x Slovan Bratislava: AS Roma -1.5 Handicap Asiático (@1.58)",
+        "Liverpool FC x Villarreal CF: Liverpool Vence (ML @1.40)"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Valor — 3 Jogos Distintos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Valor — 4 Jogos Distintos)",
       "type": "ATTACK",
-      "multiplier": 7.25,
-      "status": "MISS",
-      "missReason": "SC Braga 1x2 e Corinthians 1x1",
+      "multiplier": 7.80,
+      "status": "PENDING",
       "legs": [
-        "Tottenham Hotspur x Coventry City: Tottenham Vence + Mais de 2.5 Gols (V1 e TAc 2.5 - Sim @2.05) [HIT 3x1]",
-        "SC Braga x Gil Vicente: SC Braga Vence + Menos de 3.5 Gols (V1 e TAb 3.5 - Sim @2.08) [MISS 1x2]",
-        "Corinthians x Vitória: Corinthians Vence (V1 @1.70) [MISS 1x1]"
+        "Paris Saint-Germain x FC Barcelona: Ambos Marcam + Mais de 2.5 Gols (@1.75)",
+        "Manchester City x AEK Atenas: Man City Vence + Mais de 2.5 Gols (@1.58)",
+        "AS Roma x Slovan Bratislava: Roma Vence + Mais de 2.5 Gols (@1.68)",
+        "Liverpool FC x Villarreal CF: Liverpool Vence + Mais de 1.5 Gols (@1.68)"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos Distintos)",
       "type": "NETO",
-      "multiplier": 15.53,
-      "status": "MISS",
-      "notes": "4 partidas de alto retorno com combos prontos da casa.",
+      "multiplier": 27.52,
+      "status": "PENDING",
+      "notes": "4 partidas com combos nativos e handicaps de alta alavancagem.",
       "legs": [
-        "Tottenham Hotspur x Coventry City: Tottenham Vence por 2+ Gols (-1.5 AH @2.15) [HIT 3x1]",
-        "SC Braga x Gil Vicente: SC Braga Vence + Mais de 1.5 Gols (V1 e TAc 1.5 - Sim @1.95) [MISS 1x2]",
-        "Goiás x Náutico: Goiás Vence (V1 @1.78) [MISS 0x0]",
-        "Corinthians x Vitória: Corinthians Vence + Menos de 3.5 Gols (V1 e TAb 3.5 - Sim @2.08) [MISS 1x1]"
+        "Paris Saint-Germain x FC Barcelona: Empate ou Barcelona + Ambos Marcam (@2.45)",
+        "Manchester City x AEK Atenas: Manchester City -2.5 Handicap Asiático (@2.25)",
+        "AS Roma x Slovan Bratislava: AS Roma Vence por 3+ Gols (-2.0 AH @2.40)",
+        "Liverpool FC x Villarreal CF: Liverpool Vence por 2+ Gols (-1.5 AH @2.08)"
       ]
     }
   ]
