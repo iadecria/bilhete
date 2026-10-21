@@ -1,118 +1,96 @@
 {
-  "date": "2026-10-21",
-  "snapshotId": "FAS_MULTI_SPORT_2026-10-21_V1_CHAMPIONS_LIBERTADORES",
-  "status": "PENDING",
-  "notes": "Grade 100% calibrada no padrão Clean Parlay Universal (1 aposta única por partida). Super quarta-feira europeia (Champions League Fase de Liga) e semifinais continentais da Copa Libertadores e Copa Sul-Americana.",
+  "date": "2026-10-20",
+  "snapshotId": "FAS_MULTI_SPORT_2026-10-20_V1_CHAMPIONS_LEAGUE",
+  "status": "LIQUIDATED",
+  "notes": "Terça-feira épica de UEFA Champions League (Fase de Liga - 3ª Rodada) e encerramento da 34ª rodada do Brasileirão Série B. Liquidação com 100% GREEN no Bilhete Supremo, Safe, Safe+ e Super Ataque, além de avanço histórico no Desafio Soros para o Dia 8.",
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (UEFA Champions League, Libertadores & Sul-Americana)",
+    "name": "⭐ BILHETE SUPREMO — O FILÉ DO DIA (Champions League & Brasileirão Série B)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 5.81,
-    "philosophy": "Arquitetura Clean Parlay: 10 partidas distintas de altíssima convicção (1 seleção por jogo), divididas em 3 Turnos de Horário com liquidação antecipada.",
-    "status": "PENDING",
+    "multiplierGlobal": 3.77,
+    "philosophy": "6 seleções de altíssima convicção técnica e proteção estatística. Desmembramento estratégico em 3 turnos para antecipação de lucros e eliminação de variância.",
+    "status": "HIT",
     "timeClusters": [
       {
-        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 - 15:00 BRT)",
-        "multiplier": 1.82,
-        "notes": "Abertura da Champions League com Como x Man United e Lille x Galatasaray em busca de gols, somado à contenção defensiva de Levante x Athletic Bilbao.",
+        "clusterName": "🥪 TURNO 1 — ALMOÇO EUROPEU (13:45 BRT)",
+        "multiplier": 1.25,
+        "notes": "Superioridade alemã do Dortmund em Baku diante do estreante Sabah.",
+        "status": "HIT",
         "legs": [
-          "Como x Manchester United: Mais de 1.5 Gols no Jogo (@1.22)",
-          "Lille x Galatasaray: Mais de 1.5 Gols no Jogo (@1.24)",
-          "Levante x Athletic Bilbao: Menos de 3.5 Gols no Jogo (@1.20)"
+          "Sabah FK x Borussia Dortmund: Dortmund ou Empate (Dupla Chance X2 @1.12) [1x2] ✅",
+          "Sabah FK x Borussia Dortmund: Mais de 1.5 Gols no Jogo (@1.20) [1x2] ✅"
         ]
       },
       {
-        "clusterName": "🏰 TURNO 2 — TARDE CHAMPIONS LEAGUE (16:00 BRT)",
-        "multiplier": 2.25,
-        "notes": "Força do Real Madrid no Bernabéu, imposição do Aston Villa e Sporting em seus domínios, gols no clássico Bayern x Arsenal e favoritismo do Betis.",
+        "clusterName": "🌆 TURNO 2 — TARDE CHAMPIONS LEAGUE ELITE (16:00 BRT)",
+        "multiplier": 1.95,
+        "notes": "Força máxima em casa do Man City e da Roma contra adversários vulneráveis, gols no clássico PSG x Barça e proteção de mando do Liverpool em Anfield.",
+        "status": "HIT",
         "legs": [
-          "Real Madrid x RB Leipzig: Real Madrid ou Empate (Dupla Chance 1X @1.12)",
-          "Aston Villa x Viking: Aston Villa Vence (ML @1.24)",
-          "Sporting CP x LASK Linz: Sporting CP Vence (ML @1.22)",
-          "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)",
-          "Real Betis x Feyenoord: Real Betis ou Empate (Dupla Chance 1X @1.18)"
+          "Manchester City x AEK Atenas: Manchester City Vence (ML / V1 @1.20) [5x1] ✅",
+          "AS Roma x Slovan Bratislava: AS Roma Vence (ML / V1 @1.22) [4x0] ✅",
+          "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16) [4x2] ✅",
+          "Liverpool FC x Villarreal CF: Liverpool ou Empate (Dupla Chance 1X @1.12) [4x3] ✅"
         ]
       },
       {
-        "clusterName": "🌙 TURNO 3 — NOITE CONTINENTAL / DECISÕES (19:00 - 21:30 BRT)",
-        "multiplier": 1.42,
-        "notes": "Galo administrando a vantagem de 3 gols no Uruguai e Palmeiras decidindo no Allianz Parque diante do Fluminense.",
+        "clusterName": "🌙 TURNO 3 — NOITE / BRASILEIRÃO SÉRIE B (19:30 BRT)",
+        "multiplier": 1.48,
+        "notes": "Reta final da Série B no Estádio VGD com combo nativo blindado (1X e Menos de 3.5).",
+        "status": "HIT",
         "legs": [
-          "Montevideo City Torque x Atlético-MG: Atlético-MG ou Empate (Dupla Chance X2 @1.22)",
-          "Palmeiras x Fluminense: Palmeiras ou Empate (Dupla Chance 1X @1.16)"
+          "Londrina x Cuiabá: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [1x0] ✅"
         ]
       }
     ],
     "selections": [
       {
-        "match": "Como x Manchester United (13:45 BRT)",
+        "match": "Sabah FK x Borussia Dortmund (13:45 BRT)",
         "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.22,
-        "status": "PENDING"
-      },
-      {
-        "match": "Lille x Galatasaray (13:45 BRT)",
-        "cluster": "Turno 1",
-        "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.24,
-        "status": "PENDING"
-      },
-      {
-        "match": "Levante x Athletic Bilbao (15:00 BRT)",
-        "cluster": "Turno 1",
-        "market": "Menos de 3.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "Real Madrid x RB Leipzig (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Real Madrid ou Empate (1X)",
+        "market": "Dortmund ou Empate (X2)",
         "odd": 1.12,
-        "status": "PENDING"
+        "status": "HIT",
+        "result": "1x2"
       },
       {
-        "match": "Aston Villa x Viking (16:00 BRT)",
+        "match": "Manchester City x AEK Atenas (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Aston Villa Vence (1)",
-        "odd": 1.24,
-        "status": "PENDING"
+        "market": "Manchester City Vence (1)",
+        "odd": 1.20,
+        "status": "HIT",
+        "result": "5x1"
       },
       {
-        "match": "Sporting CP x LASK Linz (16:00 BRT)",
+        "match": "AS Roma x Slovan Bratislava (16:00 BRT)",
         "cluster": "Turno 2",
-        "market": "Sporting CP Vence (1)",
+        "market": "AS Roma Vence (1)",
         "odd": 1.22,
-        "status": "PENDING"
+        "status": "HIT",
+        "result": "4x0"
       },
       {
-        "match": "Bayern de Munique x Arsenal (16:00 BRT)",
+        "match": "Paris Saint-Germain x FC Barcelona (16:00 BRT)",
         "cluster": "Turno 2",
         "market": "Mais de 1.5 Gols no Jogo",
-        "odd": 1.20,
-        "status": "PENDING"
-      },
-      {
-        "match": "Real Betis x Feyenoord (16:00 BRT)",
-        "cluster": "Turno 2",
-        "market": "Real Betis ou Empate (1X)",
-        "odd": 1.18,
-        "status": "PENDING"
-      },
-      {
-        "match": "Montevideo City Torque x Atlético-MG (19:00 BRT)",
-        "cluster": "Turno 3",
-        "market": "Atlético-MG ou Empate (X2)",
-        "odd": 1.22,
-        "status": "PENDING"
-      },
-      {
-        "match": "Palmeiras x Fluminense (21:30 BRT)",
-        "cluster": "Turno 3",
-        "market": "Palmeiras ou Empate (1X)",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT",
+        "result": "4x2"
+      },
+      {
+        "match": "Liverpool FC x Villarreal CF (16:00 BRT)",
+        "cluster": "Turno 2",
+        "market": "Liverpool ou Empate (1X)",
+        "odd": 1.12,
+        "status": "HIT",
+        "result": "4x3"
+      },
+      {
+        "match": "Londrina x Cuiabá (19:30 BRT)",
+        "cluster": "Turno 3",
+        "market": "1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim)",
+        "odd": 1.48,
+        "status": "HIT",
+        "result": "1x0"
       }
     ]
   },
@@ -121,115 +99,119 @@
     "stake": 50.75,
     "multiplier": 1.39,
     "potentialReturn": 70.54,
-    "status": "PENDING",
-    "notes": "Modelo Sniper Dia 7 de 30 (Pinnacle/Melbet Oficial): Dupla Blindada Europeia espelhando Stop Point 1 SAFE — Aston Villa Vence (ML @1.24) no Villa Park diante do modesto Viking norueguês + Real Madrid ou Empate (1X @1.12) no Santiago Bernabéu contra o fragilizado RB Leipzig.",
+    "actualReturn": 70.54,
+    "status": "HIT",
+    "notes": "Modelo Sniper Dia 7 de 30 (Melbet/Pinnacle Oficial): Dupla Âncora Champions League. Manchester City Vence (ML @1.20) [5x1] + PSG x Barcelona: Mais de 1.5 Gols (@1.16) [4x2]. Odd combinada @1.39. GREEN consagrado! 7º acerto consecutivo.",
     "sniperOptions": [
       {
         "id": "sniper-1",
-        "match": "Aston Villa x Viking + Real Madrid x RB Leipzig",
+        "match": "Manchester City x AEK Atenas + PSG x Barcelona",
         "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Aston Villa Vence (@1.24) + Real Madrid 1X (@1.12)",
+        "market": "Man City Vence (@1.20) + PSG x Barça Mais de 1.5 Gols (@1.16)",
         "odd": 1.39,
         "stake": 50.75,
         "potentialReturn": 70.54,
-        "status": "PENDING",
+        "actualReturn": 70.54,
+        "status": "HIT",
         "isPrimary": true,
-        "analysis": "Unai Emery conta com força máxima em casa diante de equipe nórdica em nível inferior; Real Madrid tem 100% de vitórias no Bernabéu e Leipzig vem de goleada sofrida por 6x1."
+        "analysis": "City goleou o AEK por 5x1 no Etihad, e PSG venceu Barça por 4x2 com 6 gols totais."
       }
     ],
     "selections": [
       {
-        "match": "Aston Villa x Viking",
+        "match": "Manchester City x AEK Atenas",
         "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Aston Villa Vence (1)",
-        "odd": 1.24,
-        "status": "PENDING"
+        "market": "Manchester City Vence (1)",
+        "odd": 1.20,
+        "status": "HIT",
+        "result": "5x1"
       },
       {
-        "match": "Real Madrid x RB Leipzig",
+        "match": "Paris Saint-Germain x FC Barcelona",
         "competition": "UEFA Champions League (16:00 BRT)",
-        "market": "Real Madrid ou Empate (1X)",
-        "odd": 1.12,
-        "status": "PENDING"
+        "market": "Mais de 1.5 Gols no Jogo",
+        "odd": 1.16,
+        "status": "HIT",
+        "result": "4x2"
       }
     ]
   },
   "modularTickets": [
     {
-      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial 100% Compatível)",
+      "name": "MÚLTIPLA 1 — SAFE (Boletim Oficial Nativo)",
       "type": "SAFE",
-      "status": "PENDING",
-      "notes": "100% de jogos distintos em cada Stop Point. Aceito sem restrições em qualquer casa (Pinnacle, Bet365, Betano, Melbet).",
+      "status": "HIT",
+      "notes": "Stop points modulares com proteção matemática máxima — 100% GREEN em todos os níveis.",
       "stopPoints": [
         {
-          "level": "STOP POINT 1 (Dupla Âncora Blindada — Tarde Champions League)",
+          "level": "STOP POINT 1 (Dupla Âncora Champions League)",
           "multiplier": 1.39,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)"
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20) [5x1] ✅",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16) [4x2] ✅"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
-          "level": "STOP POINT 2 (Quádrupla Forte de Champions League)",
-          "multiplier": 2.03,
+          "level": "STOP POINT 2 (Quádrupla Forte Europeia)",
+          "multiplier": 1.90,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)",
-            "Sporting CP x LASK Linz: Sporting CP Vence (@1.22)",
-            "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)"
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20) [5x1] ✅",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16) [4x2] ✅",
+            "AS Roma x Slovan Bratislava: AS Roma Vence (@1.22) [4x0] ✅",
+            "Liverpool FC x Villarreal CF: Liverpool ou Empate (1X @1.12) [4x3] ✅"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         },
         {
-          "level": "STOP POINT 3 (Múltipla Completa com Semifinais Continentais)",
-          "multiplier": 2.87,
+          "level": "STOP POINT 3 (Múltipla Completa — 6 Jogos Legítimos)",
+          "multiplier": 3.77,
           "legs": [
-            "Aston Villa x Viking: Aston Villa Vence (@1.24)",
-            "Real Madrid x RB Leipzig: Real Madrid ou Empate (1X @1.12)",
-            "Sporting CP x LASK Linz: Sporting CP Vence (@1.22)",
-            "Bayern de Munique x Arsenal: Mais de 1.5 Gols no Jogo (@1.20)",
-            "Montevideo City Torque x Atlético-MG: Atlético-MG ou Empate (X2 @1.22)",
-            "Palmeiras x Fluminense: Palmeiras ou Empate (1X @1.16)"
+            "Sabah FK x Borussia Dortmund: Dortmund ou Empate (X2 @1.12) [1x2] ✅",
+            "Manchester City x AEK Atenas: Manchester City Vence (@1.20) [5x1] ✅",
+            "AS Roma x Slovan Bratislava: AS Roma Vence (@1.22) [4x0] ✅",
+            "Paris Saint-Germain x FC Barcelona: Mais de 1.5 Gols no Jogo (@1.16) [4x2] ✅",
+            "Liverpool FC x Villarreal CF: Liverpool ou Empate (1X @1.12) [4x3] ✅",
+            "Londrina x Cuiabá: 1X e Menos de 3.5 Gols (1X e TAb 3.5 - Sim @1.48) [1x0] ✅"
           ],
-          "status": "PENDING"
+          "status": "HIT"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Balanceada — 3 Jogos Distintos)",
       "type": "SAFE+",
-      "multiplier": 3.61,
-      "status": "PENDING",
+      "multiplier": 3.43,
+      "status": "HIT",
       "legs": [
-        "Real Madrid x RB Leipzig: Real Madrid Vence (ML @1.35)",
-        "Sporting CP x LASK Linz: Sporting -1.5 Handicap Asiático (@1.62)",
-        "Palmeiras x Fluminense: Palmeiras Vence (ML @1.65)"
+        "Manchester City x AEK Atenas: Manchester City -1.5 Handicap Asiático (@1.55) [5x1] ✅",
+        "AS Roma x Slovan Bratislava: AS Roma -1.5 Handicap Asiático (@1.58) [4x0] ✅",
+        "Liverpool FC x Villarreal CF: Liverpool Vence (ML @1.40) [4x3] ✅"
       ]
     },
     {
-      "name": "MÚLTIPLA 3 — SUPER ATAQUE (PRA CIMA — 4 Jogos Distintos)",
+      "name": "MÚLTIPLA 3 — SUPER ATAQUE (Combos de Valor — 4 Jogos Distintos)",
       "type": "ATTACK",
-      "multiplier": 6.36,
-      "status": "PENDING",
+      "multiplier": 7.80,
+      "status": "HIT",
       "legs": [
-        "Bayern de Munique x Arsenal: Ambos Marcam - Sim (@1.55)",
-        "Real Madrid x RB Leipzig: Real Madrid Vence + Mais de 2.5 Gols (@1.85)",
-        "Lille x Galatasaray: Ambos Marcam - Sim (@1.68)",
-        "Palmeiras x Fluminense: Mais de 1.5 Gols no Jogo (@1.32)"
+        "Paris Saint-Germain x FC Barcelona: Ambos Marcam + Mais de 2.5 Gols (@1.75) [4x2] ✅",
+        "Manchester City x AEK Atenas: Man City Vence + Mais de 2.5 Gols (@1.58) [5x1] ✅",
+        "AS Roma x Slovan Bratislava: Roma Vence + Mais de 2.5 Gols (@1.68) [4x0] ✅",
+        "Liverpool FC x Villarreal CF: Liverpool Vence + Mais de 1.5 Gols (@1.68) [4x3] ✅"
       ]
     },
     {
       "name": "MÚLTIPLA 4 — APOSENTAR O NETO (SUPER COMBO — 4 Jogos Distintos)",
       "type": "NETO",
-      "multiplier": 27.08,
-      "status": "PENDING",
-      "notes": "4 partidas de alto valor e assimetria técnica para retorno esticado.",
+      "multiplier": 27.52,
+      "status": "MISS",
+      "notes": "2 de 4 acertos. City e Roma cobriram os handicaps altos, mas Barcelona foi superado em Paris (4x2) e Liverpool venceu por 1 gol de margem (4x3).",
       "legs": [
-        "Real Madrid x RB Leipzig: Real Madrid Vence por 2+ Gols (-1.5 AH @1.85)",
-        "Bayern de Munique x Arsenal: Bayern Vence + Ambos Marcam (@3.40)",
-        "Sporting CP x LASK Linz: Sporting Vence nos Dois Tempos (@2.10)",
-        "Palmeiras x Fluminense: Palmeiras Vence + Menos de 3.5 Gols (@2.05)"
+        "Paris Saint-Germain x FC Barcelona: Empate ou Barcelona + Ambos Marcam (@2.45) [4x2] ❌",
+        "Manchester City x AEK Atenas: Manchester City -2.5 Handicap Asiático (@2.25) [5x1] ✅",
+        "AS Roma x Slovan Bratislava: AS Roma Vence por 3+ Gols (-2.0 AH @2.40) [4x0] ✅",
+        "Liverpool FC x Villarreal CF: Liverpool Vence por 2+ Gols (-1.5 AH @2.08) [4x3] ❌"
       ]
     }
   ]
