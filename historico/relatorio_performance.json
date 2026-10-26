@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-25T01:25:00-03:00",
+  "updatedAt": "2026-10-25T23:15:00-03:00",
   "kpis": {
-    "totalRounds": 14,
-    "totalTickets": 90,
-    "greenTickets": 59,
-    "redTickets": 31,
-    "winRateGlobal": "65.6%",
-    "safeWinRate": "85.0%",
-    "safePlusWinRate": "45.5%",
-    "sorosCurrentDay": 2,
-    "sorosCurrentStake": 13.70,
+    "totalRounds": 15,
+    "totalTickets": 96,
+    "greenTickets": 61,
+    "redTickets": 35,
+    "winRateGlobal": "63.5%",
+    "safeWinRate": "83.3%",
+    "safePlusWinRate": "50.0%",
+    "sorosCurrentDay": 1,
+    "sorosCurrentStake": 10.00,
     "sorosBasketballDay": 2,
     "sorosBasketballStake": 14.5,
-    "profitFactor": 4.85
+    "profitFactor": 4.60
   },
   "ticketBreakdown": [
     {
@@ -208,6 +208,20 @@
     }
   ],
   "history": [
+    {
+      "date": "2026-10-25",
+      "sport": "Futebol (Serie A, La Liga, Premier League, Bundesliga, Ligue 1)",
+      "totalTickets": 6,
+      "greens": 2,
+      "reds": 4,
+      "highlights": [
+        "🚀 MÚLTIPLA 2 SAFE+ 3/3 100% GREEN HISTÓRICO TOTAL (@3.33) com vitórias secas de Inter de Milão, Marseille e Real Sociedad!",
+        "🛡️ Múltipla 1 SAFE Stop Point 1 (@1.25) e Stop Point 2 (@1.63) 100% GREEN!",
+        "⭐ Bilhete Supremo com 9 de 10 acertos (90% de taxa por perna) - derrubado pela zebra isolada Hoffenheim 3x0 Leverkusen",
+        "Soros Dia 2 encerrou ciclo com zebra do Leverkusen e vitória do Real Madrid no El Clásico",
+        "Ativação imediata da Diretriz Sniper V6.1 para a rodada de 26/10 com enxugamento de bilhetes e blindagem máxima"
+      ]
+    },
     {
       "date": "2026-10-24",
       "sport": "Futebol (Premier League, Bundesliga, Serie A, La Liga, Brasileirão Série A)",
