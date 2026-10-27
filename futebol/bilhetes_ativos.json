@@ -1,33 +1,33 @@
 {
   "date": "2026-10-26",
   "snapshotId": "FAS_MULTI_SPORT_2026-10-26_V2_REFACTOR_SNIPER",
-  "status": "PENDING",
-  "notes": "REFATORAÇÃO CIRÚRGICA FAS V6.1: Fim das múltiplas infladas de 7-10 pernas. O Bilhete Supremo foi enxugado para a Tripla Sniper de Ouro (@1.65) e os bilhetes foram 100% blindados contra zebras de favoritos como visitantes e clássicos 50/50. Soros reiniciado oficialmente no DIA 1 com R$ 10,00.",
+  "status": "AUDITED",
+  "notes": "CONFERE OFICIAL 26/10/2026: Rodada monumental da Refatoração Sniper V6.1 com 100% GREEN no Bilhete Supremo (@1.65), 100% GREEN em todos os 3 Stop Points da SAFE (@1.81), 100% GREEN histórico na SAFE+ (@2.64) e GREEN cravado no Dia 1 do Desafio Soros (@1.37 ➔ R$ 13,70). Vitória emocionante do Flamengo aos 54' 2T com pênalti de Carrascal e goleada do Juventude 3x0 consagraram a blindagem.",
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO — SNIPER DE OURO (Refatorado V6.1 / 3 Seleções)",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 1.65,
     "philosophy": "Arquitetura Sniper Antivariância: Apenas as 3 seleções mais indiscutíveis da rodada global, sem empilhar jogos desnecessários que aumentam a penalidade composta.",
-    "status": "PENDING",
+    "status": "GREEN",
     "selections": [
       {
         "match": "Paris Saint-Germain x Lyon (16:30 BRT)",
         "market": "PSG ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Flamengo x Atlético-MG (20:00 BRT)",
         "market": "Flamengo ou Empate (Dupla Chance 1X)",
         "odd": 1.16,
-        "status": "PENDING"
+        "status": "HIT"
       },
       {
         "match": "Juventude x Náutico (20:30 BRT)",
         "market": "Juventude ou Empate (Dupla Chance 1X)",
         "odd": 1.14,
-        "status": "PENDING"
+        "status": "HIT"
       }
     ]
   },
@@ -35,58 +35,61 @@
     {
       "name": "MÚLTIPLA 1 — SAFE (Dupla Âncora Blindada V6.1)",
       "type": "SAFE",
+      "status": "GREEN",
       "stopPoints": [
         {
           "level": "Stop Point 1 (Dupla Âncora Mandantes Fortes)",
           "multiplier": 1.32,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
           "level": "Stop Point 2 (Tripla de Caldeirões)",
           "multiplier": 1.51,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16)",
-            "Juventude x Náutico: Juventude ou Empate (1X @1.14)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
+            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         },
         {
           "level": "Stop Point 3 (Quádrupla com Under Estrutural)",
           "multiplier": 1.81,
           "legs": [
-            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14)",
-            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16)",
-            "Juventude x Náutico: Juventude ou Empate (1X @1.14)",
-            "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20)"
+            "Paris Saint-Germain x Lyon: PSG ou Empate (1X @1.14) ➔ ✅ HIT (2x0)",
+            "Flamengo x Atlético-MG: Flamengo ou Empate (1X @1.16) ➔ ✅ HIT (3x2)",
+            "Juventude x Náutico: Juventude ou Empate (1X @1.14) ➔ ✅ HIT (3x0)",
+            "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
           ],
-          "status": "PENDING"
+          "status": "GREEN"
         }
       ]
     },
     {
       "name": "MÚLTIPLA 2 — SAFE+ (Alavancagem Moderada)",
-      "type": "SAFE_PLUS",
+      "type": "SAFE+",
       "multiplier": 2.64,
+      "status": "GREEN",
+      "notes": "🏆 100% GREEN MONSTRUOSO! Juventude 3x0 Náutico e Flamengo 3x2 Atlético-MG bateram com autoridade total (+164% de lucro limpo).",
       "legs": [
-        "Juventude x Náutico: Juventude Vence (ML @1.60)",
-        "Flamengo x Atlético-MG: Flamengo Vence (ML @1.65)"
-      ],
-      "status": "PENDING"
+        "Juventude x Náutico: Juventude Vence (ML @1.60) ➔ ✅ HIT (3x0)",
+        "Flamengo x Atlético-MG: Flamengo Vence (ML @1.65) ➔ ✅ HIT (3x2)"
+      ]
     },
     {
       "name": "MÚLTIPLA 3 — SUPER ATAQUE (Dupla Gols de Clássicos)",
       "type": "ATTACK",
       "multiplier": 2.33,
+      "status": "RED",
+      "notes": "Galatasaray 2x1 Fenerbahçe bateu BTTS, mas Lyon não conseguiu marcar no Parque dos Príncipes (PSG 2x0).",
       "legs": [
-        "Paris Saint-Germain x Lyon: Ambos os Times Marcam (Sim @1.50)",
-        "Galatasaray x Fenerbahçe: Ambos os Times Marcam (Sim @1.55)"
-      ],
-      "status": "PENDING"
+        "Paris Saint-Germain x Lyon: Ambos os Times Marcam (Sim @1.50) ➔ ❌ MISS (2x0)",
+        "Galatasaray x Fenerbahçe: Ambos os Times Marcam (Sim @1.55) ➔ ✅ HIT (2x1)"
+      ]
     }
   ],
   "sorosTicket": {
@@ -96,11 +99,12 @@
     "stake": 10.00,
     "multiplier": 1.37,
     "potentialReturn": 13.70,
+    "actualReturn": 13.70,
     "philosophy": "Princípio da Imunidade Absoluta: 100% desacoplado da SAFE e fora de clássicos 50/50. Baseado em mandante no caldeirão + Under de jogo tenso de Z4.",
     "legs": [
-      "Juventude x Náutico: Juventude ou Empate (Dupla Chance 1X @1.14)",
-      "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20)"
+      "Juventude x Náutico: Juventude ou Empate (Dupla Chance 1X @1.14) ➔ ✅ HIT (3x0)",
+      "Coritiba x Grêmio: Menos de 3.5 Gols no Jogo (@1.20) ➔ ✅ HIT (0x1)"
     ],
-    "status": "PENDING"
+    "status": "GREEN"
   }
 }
