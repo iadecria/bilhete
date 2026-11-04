@@ -1,0 +1,271 @@
+{
+  "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
+  "startDate": "2026-09-25",
+  "initialStake": 10.0,
+  "currentStake": 13.6,
+  "currentDay": 2,
+  "targetDays": 30,
+  "status": "ACTIVE",
+  "vaultProfit": 0.0,
+  "history": [
+    {
+      "day": 1,
+      "date": "2026-09-25",
+      "stakeIn": 10.0,
+      "selection": "Turquia x França (França ML) + Itália x Bélgica (Itália +0.5)",
+      "odd": 1.93,
+      "potentialReturn": 19.32,
+      "status": "MISS",
+      "missReason": "Derrota da Itália em casa para a Bélgica por 0x2"
+    },
+    {
+      "day": 1,
+      "date": "2026-09-26",
+      "stakeIn": 10.0,
+      "selection": "Macedônia x Suíça (Suíça ML @1.43) + Eslováquia x Moldávia (Eslováquia ML @1.18) + San Marino x Finlândia (Finlândia ML @1.09)",
+      "odd": 1.84,
+      "potentialReturn": 18.4,
+      "status": "HIT",
+      "actualReturn": 18.4
+    },
+    {
+      "day": 2,
+      "date": "2026-10-11",
+      "stakeIn": 18.4,
+      "selection": "Benfica x Vitória SC (Benfica Vence / ML @1.19) + Rennes x Auxerre (Rennes Vence / ML @1.44) + Bahia x Mirassol (Bahia ou Empate / 1X @1.18)",
+      "odd": 2.02,
+      "potentialReturn": 37.17,
+      "status": "HIT",
+      "actualReturn": 37.17
+    },
+    {
+      "day": 3,
+      "date": "2026-10-12",
+      "stakeIn": 37.17,
+      "selection": "Atalanta x Venezia (Atalanta Vence / ML @1.54) + Criciúma x América-MG (Criciúma ou Empate / 1X @1.05) + Fortaleza x CRB (Fortaleza ou Empate / 1X @1.24)",
+      "odd": 2.0,
+      "potentialReturn": 74.34,
+      "status": "HIT",
+      "actualReturn": 74.34
+    },
+    {
+      "day": 4,
+      "date": "2026-10-13",
+      "stakeIn": 74.34,
+      "selection": "Arsenal x Lille (Arsenal Vence / ML @1.21) + Inter Milan x Club Brugge (Inter Vence / ML @1.26) + Galatasaray x Barcelona (Barcelona Vence / ML @1.27) + Viking x Bayern Munich (Bayern Vence / ML @1.09)",
+      "odd": 2.11,
+      "potentialReturn": 156.86,
+      "status": "MISS",
+      "missReason": "Zebra europeia: derrota da Inter de Milão em pleno San Siro para o Club Brugge por 3x4"
+    },
+    {
+      "day": 1,
+      "date": "2026-10-14",
+      "stakeIn": 10.0,
+      "selection": "AS Roma x Real Madrid (Real Madrid ou Empate / X2 @1.28)",
+      "odd": 1.28,
+      "potentialReturn": 12.8,
+      "status": "HIT",
+      "actualReturn": 12.8
+    },
+    {
+      "day": 2,
+      "date": "2026-10-15",
+      "stakeIn": 12.8,
+      "selection": "Lech Poznań x Bayer Leverkusen (Bayer Leverkusen Vence / ML @1.33)",
+      "odd": 1.33,
+      "potentialReturn": 17.02,
+      "status": "HIT",
+      "actualReturn": 17.02
+    },
+    {
+      "day": 3,
+      "date": "2026-10-16",
+      "stakeIn": 17.02,
+      "selection": "Eintracht Frankfurt x 1. Koln (Hipótese Dupla 1X @1.316)",
+      "odd": 1.316,
+      "potentialReturn": 22.4,
+      "status": "HIT",
+      "actualReturn": 22.4
+    },
+    {
+      "day": 4,
+      "date": "2026-10-17",
+      "stakeIn": 22.4,
+      "selection": "Manchester City x Ipswich Town (Manchester City Vence / ML @1.24)",
+      "odd": 1.24,
+      "potentialReturn": 27.78,
+      "status": "HIT",
+      "actualReturn": 27.78
+    },
+    {
+      "day": 5,
+      "date": "2026-10-18",
+      "stakeIn": 27.78,
+      "selection": "Real Madrid x Sevilla (Real Madrid Vence / ML @1.26)",
+      "odd": 1.26,
+      "potentialReturn": 35.0,
+      "status": "HIT",
+      "actualReturn": 35.0
+    },
+    {
+      "day": 6,
+      "date": "2026-10-19",
+      "stakeIn": 35.0,
+      "selection": "Tottenham Hotspur x Coventry City (Tottenham Vence / ML @1.45)",
+      "odd": 1.45,
+      "potentialReturn": 50.75,
+      "status": "HIT",
+      "actualReturn": 50.75
+    },
+    {
+      "day": 7,
+      "date": "2026-10-21",
+      "stakeIn": 50.75,
+      "selection": "Aston Villa x Viking (Aston Villa Vence / ML @1.24) + Real Madrid x RB Leipzig (Real Madrid ou Empate / 1X @1.12)",
+      "odd": 1.39,
+      "potentialReturn": 70.54,
+      "status": "HIT",
+      "actualReturn": 70.54
+    },
+    {
+      "day": 8,
+      "date": "2026-10-22",
+      "stakeIn": 70.54,
+      "selection": "Tottenham Hotspur ou Empate (1X @1.12) + Eintracht Frankfurt Vence (ML @1.22)",
+      "odd": 1.37,
+      "potentialReturn": 96.64,
+      "status": "HIT",
+      "actualReturn": 96.64
+    },
+    {
+      "day": 9,
+      "date": "2026-10-23",
+      "stakeIn": 96.64,
+      "selection": "Cruzeiro ou Empate (1X @1.12) + Torino ou Empate (1X @1.22)",
+      "odd": 1.37,
+      "potentialReturn": 132.4,
+      "status": "HIT",
+      "actualReturn": 132.4
+    },
+    {
+      "day": 10,
+      "date": "2026-10-24",
+      "stakeIn": 132.4,
+      "selection": "Arsenal 1X (@1.12) + Dortmund x Frankfurt Over 1.5 (@1.15) + Palmeiras 1X (@1.14)",
+      "odd": 1.47,
+      "potentialReturn": 194.36,
+      "status": "MISS",
+      "missReason": "Zebra de placar econômico: Dortmund 1x0 Frankfurt travou no under 1.5 (gol único aos 80')"
+    },
+    {
+      "day": 1,
+      "date": "2026-10-24",
+      "stakeIn": 10.0,
+      "selection": "Palmeiras ou Empate (1X @1.14) + Internacional x Botafogo Menos de 3.5 Gols (@1.20) [Regra V6 Não-Contaminação]",
+      "odd": 1.37,
+      "potentialReturn": 13.7,
+      "status": "HIT",
+      "actualReturn": 13.7
+    },
+    {
+      "day": 2,
+      "date": "2026-10-25",
+      "stakeIn": 13.7,
+      "selection": "Bayer Leverkusen ou Empate (X2 @1.12) + Barcelona ou Empate (1X @1.18)",
+      "odd": 1.32,
+      "potentialReturn": 18.08,
+      "status": "MISS",
+      "missReason": "Zebra dupla: Hoffenheim venceu Leverkusen por 3x0 e Real Madrid bateu Barcelona no Camp Nou por 1x2 (Mbappé 2x)"
+    },
+    {
+      "day": 1,
+      "date": "2026-10-26",
+      "stakeIn": 10.0,
+      "selection": "Juventude ou Empate (1X @1.14) + Coritiba x Grêmio Menos de 3.5 Gols (@1.20)",
+      "odd": 1.37,
+      "potentialReturn": 13.7,
+      "status": "HIT",
+      "actualReturn": 13.7
+    },
+    {
+      "day": 2,
+      "date": "2026-10-27",
+      "stakeIn": 13.7,
+      "selection": "Girona FC Vence (ML @1.20) + Torino ou Empate (1X @1.20)",
+      "odd": 1.44,
+      "potentialReturn": 19.73,
+      "status": "MISS",
+      "missReason": "Zebra na Serie A: Torino derrotado em casa pelo Como por 1x3, quebrando a Dupla Chance 1X."
+    },
+    {
+      "day": 1,
+      "date": "2026-10-28",
+      "stakeIn": 10.0,
+      "selection": "FC Porto Vence (ML @1.18) + FC Bayern München Vence (ML @1.15)",
+      "odd": 1.36,
+      "potentialReturn": 13.6,
+      "status": "HIT"
+    },
+    {
+      "day": 2,
+      "date": "2026-10-29",
+      "stakeIn": 13.6,
+      "selection": "Al Nassr Vence (ML @1.18) + SL Benfica Vence (ML @1.38)",
+      "odd": 1.63,
+      "potentialReturn": 22.17,
+      "status": "HIT",
+      "actualReturn": 22.17
+    },
+    {
+      "day": 3,
+      "date": "2026-10-30",
+      "stakeIn": 22.17,
+      "selection": "Sporting CP Vence (ML @1.26) + Al Ittihad ou Empate (X2 @1.08)",
+      "odd": 1.36,
+      "potentialReturn": 30.15,
+      "status": "HIT",
+      "actualReturn": 30.15
+    },
+    {
+      "day": 4,
+      "date": "2026-10-31",
+      "stakeIn": 30.15,
+      "selection": "FC Porto x GD Estoril Praia (Porto Vence ML @1.18) + Al Hilal x Al Fateh (Al Hilal Vence ML @1.14)",
+      "odd": 1.35,
+      "potentialReturn": 40.7,
+      "status": "HIT",
+      "actualReturn": 40.7
+    },
+    {
+      "day": 5,
+      "date": "2026-11-01",
+      "stakeIn": 40.7,
+      "selection": "Racing Santander x Real Madrid (Real Madrid Vence ML @1.22) + Palmeiras x Vasco (Palmeiras ou Empate 1X @1.14)",
+      "odd": 1.39,
+      "potentialReturn": 56.57,
+      "status": "HIT",
+      "actualReturn": 56.57
+    },
+    {
+      "day": 6,
+      "date": "2026-11-02",
+      "stakeIn": 56.57,
+      "selection": "Atalanta x Parma (Atalanta ou Empate 1X @1.12) + RB Bragantino x Santos (RB Bragantino ou Empate 1X @1.24)",
+      "odd": 1.39,
+      "potentialReturn": 78.63,
+      "status": "MISS",
+      "missReason": "Zebra histórica na Serie A: derrota da Atalanta em pleno Gewiss Stadium por 0x3 para o Parma (gol contra de Zappacosta e expulsão)."
+    },
+    {
+      "day": 1,
+      "date": "2026-11-03",
+      "stakeIn": 10.0,
+      "selection": "Al Hilal x Shabab Al Ahli (Al Hilal Vence ML @1.18) + FC Barcelona x Aston Villa (FC Barcelona ou Empate 1X @1.15)",
+      "odd": 1.36,
+      "potentialReturn": 13.6,
+      "status": "HIT",
+      "actualReturn": 13.6
+    }
+  ]
+}
