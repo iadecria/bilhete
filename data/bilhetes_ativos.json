@@ -1,189 +1,123 @@
 {
-  "date": "2026-11-23",
-  "snapshotId": "FAS_FOOTBALL_2026-11-23_V3_DUAL_TRACK_MATINAL_E_REVALIDADA",
-  "status": "SETTLED",
-  "notes": "GRADE DE 23/11/2026 AUDITADA (CONFERE): Noite atípica e histórica de zebras continentais no futebol. A hecatombe de 2x5 do Internacional diante do Vitória no Beira-Rio (com gol aos 12 segundos) e a derrota do Santos por 0x2 para o Grêmio no Morumbis derrubaram as múltiplas da Série A. Na Europa, a expulsão precoce de Tarkowski aos 23' abriu caminho para a goleada de 4x0 do Brentford sobre o Everton (quebrando o Under) e o Monza bateu a Fiorentina por 3x0. Na Trilha A matinal, o Desafio Soros cravou 100% Green com Al-Ittihad 2x0 Pakhtakor (@1.30) e o Bayern W venceu (1x0). Na Trilha B operacional executada pelo usuário, o Santos perdeu por 0x2, encerrando o Ciclo 6 no Dia 2.",
-  "auditSummary": {
-    "roundResult": "ZEBRAS HISTÓRICAS / RED GERAL NA OPERAÇÃO NOTURNA (COM GREEN NO SOROS DA TRILHA A)",
-    "sorosTrackAStatus": "GREEN_CRAVADO_100% (Al-Ittihad 2x0 Pakhtakor @1.30 -> R$ 17,94)",
-    "sorosTrackBStatus": "RED (Santos 0x2 Grêmio)",
-    "sorosNextDay": 1,
-    "sorosNextStake": 10.0,
-    "supremoStatus": "RED (Levante 1X ✅, Monza 3x0 ❌, Brentford 4x0 ❌)",
-    "safeTrackAStatus": "RED (Bayern W1 ✅, Botafogo DNB ⚪, Inter 2x5 ❌)",
-    "safeTrackBStatus": "RED (Botafogo 1X ✅, Inter 2x5 ❌, LAFC 2x3 ❌)",
-    "brasileiraoStatus": "RED (Botafogo DNB ⚪, Inter 2x5 ❌, Santos 0x2 ❌)",
-    "improvavelStatus": "RED (Acertos em Al-Ittihad ✅, Midtjylland ✅)"
+  "date": "2026-11-25",
+  "snapshotId": "FAS_FOOTBALL_2026-11-25_V1_CHAMPIONS_MD5_V7_5",
+  "status": "ACTIVE",
+  "notes": "GRADE DE 25/11/2026 ATIVA: Metodologia FAS V7.5 (Anti-Correlation & Exposure Cap Engine). Rodada 5 da UEFA Champions League + Brasileirão Série A. ZERO sobreposição de times entre Bilhete Supremo, Múltipla SAFE e Desafio Soros. Desafio Soros no Dia 2 com R$ 13,80 isolado no Brasileirão.",
+  "strategicImprovementsApplied": {
+    "antiCorrelationCapV75": "Ativo: ZERO sobreposição de times entre Bilhete Supremo, Múltipla SAFE e Desafio Soros.",
+    "sorosStrictIsolationV75": "Ativo: O Desafio Soros corre em raia 100% isolada na Arena MRV (Atlético-MG x Corinthians).",
+    "dnbSafeShieldV75": "Ativo: Stop 2 da SAFE com Empate Anula no Liverpool contra o Club Brugge."
   },
-  "placaresOficiais": [
-    "Bayern de Munique W 1 × 0 Hoffenheim W (Bayern W1 ✅, Over 2.5 ❌)",
-    "Al-Ittihad 2 × 0 Pakhtakor Tashkent (Al-Ittihad W1 ✅, V1 & +1.5 ✅)",
-    "Brøndby 0 × 2 FC Midtjylland (Midtjylland X2 ✅)",
-    "Levante 1 × 1 Elche (Levante 1X ✅, Levante W1 ❌)",
-    "Botafogo 1 × 1 São Paulo (Botafogo 1X ✅, Botafogo DNB ⚪ Reembolso)",
-    "Monza 3 × 0 Fiorentina (Zebra: Monza 3x0, Fiorentina X2 ❌)",
-    "Brentford 4 × 0 Everton (Tarkowski expulso aos 23' do 1ºT, Menos de 3.5 ❌)",
-    "Internacional 2 × 5 Vitória (Gol com 12s, 7 gols totais, Inter 1X ❌, Menos de 3.5 ❌)",
-    "Santos 0 × 2 Grêmio (Zebra no Morumbis: Santos 1X ❌, Santos DNB ❌)",
-    "St. Louis City 3 × 2 Los Angeles FC (LAFC X2 ❌)"
-  ],
   "supremoTicket": {
-    "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE EUROPEIA",
+    "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE CHAMPIONS",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
-    "multiplierGlobal": 2.00,
+    "multiplierGlobal": 2.08,
     "stake": 25.0,
-    "actualReturn": 0.0,
-    "status": "MISS",
+    "potentialReturn": 52.00,
+    "philosophy": "Três forças absolutas na Champions League: Barcelona contra o Sabah Baku do Azerbaijão, Atlético no Metropolitano e o PSG líder 100% no Parc des Princes.",
+    "status": "ACTIVE",
     "selections": [
       {
-        "match": "Monza x Fiorentina (16:45 BRT)",
-        "competition": "Serie A (Itália)",
-        "market": "Fiorentina ou Empate (Dupla Chance X2)",
+        "match": "Sabah Baku x Barcelona (14:45 BRT)",
+        "competition": "UEFA Champions League",
+        "market": "Barcelona Vence & Mais de 1.5 Gols (Resultado + Total)",
         "odd": 1.22,
-        "status": "MISS",
-        "score": "3x0"
+        "status": "ACTIVE"
       },
       {
-        "match": "Brentford x Everton (17:00 BRT)",
-        "competition": "Premier League (Inglaterra)",
-        "market": "Total Menos de 3.5 Gols no Jogo",
-        "odd": 1.28,
-        "status": "MISS",
-        "score": "4x0"
+        "match": "Atlético Madrid x Viking FK (17:00 BRT)",
+        "competition": "UEFA Champions League",
+        "market": "Atlético Madrid Vence (W1 na Melbet)",
+        "odd": 1.16,
+        "status": "ACTIVE"
       },
       {
-        "match": "Levante x Elche (17:00 BRT)",
-        "competition": "La Liga (Espanha)",
-        "market": "Levante ou Empate (Dupla Chance 1X)",
-        "odd": 1.28,
-        "status": "HIT",
-        "score": "1x1"
+        "match": "Paris Saint-Germain x AS Roma (17:00 BRT)",
+        "competition": "UEFA Champions League",
+        "market": "Paris Saint-Germain Vence (W1 na Melbet)",
+        "odd": 1.47,
+        "status": "ACTIVE"
       }
     ]
   },
   "structuredTickets": [
     {
-      "name": "🛡️ MÚLTIPLA 1 — SAFE V7.5 (TRILHA A: MODELO MATINAL)",
+      "name": "MÚLTIPLA 1 — SAFE ENXUTA V7.5 (Stop Points com DNB / Zero Sobreposição)",
       "type": "SAFE",
-      "track": "TRILHA_A_MATINAL",
       "stake": 15.0,
-      "multiplier": 1.76,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "multiplier": 2.64,
+      "potentialReturn": 39.60,
+      "status": "ACTIVE",
       "stopPoints": [
         {
-          "level": "Stop Point 1 (Âncora Máxima — Odd @1.44)",
-          "multiplier": 1.44,
-          "status": "MISS",
-          "legs": [
-            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN (1x0 ✅)",
-            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)"
-          ]
-        },
-        {
-          "level": "Stop Point 2 (Blindagem Consagrada com DNB — Odd @1.76)",
+          "level": "Stop Point 1 (Tripla Continental de Imunidade)",
           "multiplier": 1.76,
-          "status": "MISS",
+          "potentialReturn": 26.40,
           "legs": [
-            "Bayern de Munique W x Hoffenheim W: Bayern W Vence (W1 @1.18) ➔ GREEN (1x0 ✅)",
-            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
-            "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.22) ➔ REEMBOLSO (1x1 ⚪)"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "🛡️ MÚLTIPLA 1 — SAFE V7.5 (TRILHA B: REVALIDADA NOTURNA)",
-      "type": "SAFE",
-      "track": "TRILHA_B_OPERACIONAL",
-      "stake": 15.0,
-      "multiplier": 1.82,
-      "actualReturn": 0.0,
-      "status": "MISS",
-      "stopPoints": [
-        {
-          "level": "Stop Point 1 (Âncora Noturna — Odd @1.49)",
-          "multiplier": 1.49,
-          "status": "MISS",
-          "legs": [
-            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
-            "Botafogo x São Paulo: Botafogo ou Empate (Dupla Chance 1X @1.22) ➔ HIT (1x1 ✅)"
-          ]
+            "Slavia Praha x Villarreal (14:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.25)",
+            "Club Brugge x Liverpool (17:00 BRT): Liverpool ou Empate (Dupla Chance X2 @1.16)",
+            "Inter Milan x VfB Stuttgart (17:00 BRT): Inter Milan ou Empate (Dupla Chance 1X @1.21)"
+          ],
+          "status": "ACTIVE"
         },
         {
-          "level": "Stop Point 2 (Blindagem com Proteção DNB — Odd @1.82)",
-          "multiplier": 1.82,
-          "status": "MISS",
+          "level": "Stop Point 2 (Blindagem DNB Melbet na Bélgica)",
+          "multiplier": 2.64,
+          "potentialReturn": 39.60,
+          "netProfit": 24.60,
           "legs": [
-            "Internacional x Vitória: Total Menos de 3.5 Gols no Jogo (@1.22) ➔ MISS (2x5 ❌)",
-            "Botafogo x São Paulo: Botafogo ou Empate (Dupla Chance 1X @1.22) ➔ HIT (1x1 ✅)",
-            "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)"
-          ]
+            "Slavia Praha x Villarreal: Total Mais de 1.5 Gols (@1.25)",
+            "Inter Milan x VfB Stuttgart: Inter Milan 1X (@1.21)",
+            "Club Brugge x Liverpool (17:00 BRT): Liverpool — Empate Anula Aposta (Handicap 2 (0) @1.50)"
+          ],
+          "status": "ACTIVE"
         }
       ]
     },
     {
-      "name": "🇧🇷 MÚLTIPLA 2 — FAS RODADA: BRASILEIRÃO SÉRIE A (36ª RODADA)",
-      "type": "RODADA",
-      "track": "COMUM_A_E_B",
-      "stake": 10.0,
-      "multiplier": 2.02,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "name": "🚀 MÚLTIPLA 2 — SUPER ATAQUE V7.5 (Gols & Trocação)",
+      "type": "ATTACK",
+      "stake": 3.0,
+      "multiplier": 4.19,
+      "potentialReturn": 12.57,
+      "status": "ACTIVE",
       "legs": [
-        "Internacional x Vitória: Internacional ou Empate (1X @1.20) ➔ MISS (2x5 ❌)",
-        "Botafogo x São Paulo: Botafogo — Empate Anula Aposta (DNB / Handicap 1 (0) @1.38) ➔ REEMBOLSO (1x1 ⚪)",
-        "Santos x Grêmio: Santos ou Empate (1X @1.22) ➔ MISS (0x2 ❌)"
+        "Sabah Baku x Barcelona (14:45 BRT): Barcelona — Total Individual Mais de 2.5 Gols (@1.75)",
+        "LOSC Lille x Bayern de Munique (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
+        "Sporting CP x Manchester United (17:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.45)"
       ]
     },
     {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (TRILHA A: SISTEMA 6/8 MATINAL)",
+      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (Sistema 6/8 na Melbet)",
       "type": "IMPROVAVEL",
-      "track": "TRILHA_A_MATINAL",
       "stake": 1.0,
-      "multiplier": 62.40,
-      "actualReturn": 0.0,
-      "status": "MISS",
+      "multiplier": 24.50,
+      "potentialReturn": 24.50,
+      "status": "ACTIVE",
       "legs": [
-        "Al-Ittihad x Pakhtakor: Al-Ittihad Vence & Total Mais de 1.5 Gols (@1.50) ➔ HIT (2x0 ✅)",
-        "Bayern de Munique W x Hoffenheim W: Bayern W Vence & Total Mais de 2.5 Gols (@1.45) ➔ MISS (1x0 ❌)",
-        "Monza x Fiorentina: Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62) ➔ MISS (3x0 ❌)",
-        "Brentford x Everton: Everton ou Empate (Dupla Chance X2 @1.55) ➔ MISS (4x0 ❌)",
-        "Levante x Elche: Levante Vence (W1 @2.18) ➔ MISS (1x1 ❌)",
-        "Brøndby x Midtjylland: FC Midtjylland ou Empate (Dupla Chance X2 @1.44) ➔ HIT (0x2 ✅)",
-        "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)",
-        "Santos x Grêmio: Santos ou Empate & Total Mais de 1.5 Gols (@1.65) ➔ MISS (0x2 ❌)"
-      ]
-    },
-    {
-      "name": "🎲 MÚLTIPLA 5 — O IMPROVÁVEL V7.5 (TRILHA B: SISTEMA 5/7 REVALIDADO)",
-      "type": "IMPROVAVEL",
-      "track": "TRILHA_B_OPERACIONAL",
-      "stake": 1.0,
-      "multiplier": 42.80,
-      "actualReturn": 0.0,
-      "status": "MISS",
-      "legs": [
-        "Monza x Fiorentina: Fiorentina ou Empate & Total Mais de 1.5 Gols (@1.62) ➔ MISS (3x0 ❌)",
-        "Brentford x Everton: Everton ou Empate (Dupla Chance X2 @1.55) ➔ MISS (4x0 ❌)",
-        "Levante x Elche: Levante Vence (W1 @2.18) ➔ MISS (1x1 ❌)",
-        "Internacional x Vitória: Internacional Vence (W1 @1.75) ➔ MISS (2x5 ❌)",
-        "Botafogo x São Paulo: Botafogo Vence (W1 @1.85) ➔ MISS (1x1 ❌)",
-        "St. Louis City x Los Angeles FC: Los Angeles FC ou Empate (Dupla Chance X2 @1.35) ➔ MISS (3x2 ❌)",
-        "Santos x Grêmio: Santos ou Empate & Total Mais de 1.5 Gols (@1.65) ➔ MISS (0x2 ❌)"
+        "Sabah Baku x Barcelona: Barcelona Vence & Over 1.5 (@1.22)",
+        "Slavia Praha x Villarreal: Total Mais de 1.5 Gols (@1.25)",
+        "Atlético Madrid x Viking FK: Atlético Madrid Vence (@1.16)",
+        "PSG x AS Roma: PSG Vence (@1.47)",
+        "Club Brugge x Liverpool: Liverpool X2 (@1.16)",
+        "Inter Milan x Stuttgart: Inter Milan 1X (@1.21)",
+        "Lille x Bayern de Munique: Total Mais de 2.5 Gols (@1.65)",
+        "Atlético-MG x Corinthians: Total Mais de 1.5 Gols (@1.42)"
       ]
     }
   ],
   "sorosTicket": {
-    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 2 DE 30 (TRACKING DUAL)",
-    "type": "SOROS",
+    "name": "🔥 DESAFIO SOROS FAS 30 DIAS — CICLO 6 / DIA 2 DE 30",
+    "day": 2,
+    "targetDays": 30,
     "stake": 13.80,
-    "actualReturn": 0.0,
-    "status": "MISS",
+    "multiplier": 1.42,
+    "potentialReturn": 19.60,
+    "status": "ACTIVE",
+    "philosophy": "ISOLAMENTO ABSOLUTO FAS V7.5: Entrada exclusiva no Brasileirão às 20:00 BRT, sem intersecção com o Supremo ou SAFE da Champions League.",
     "legs": [
-      "Trilha A (Matinal Oficial): Al-Ittihad 2x0 Pakhtakor — W1 @1.30 ➔ HIT ✅ (Green de R$ 17,94)",
-      "Trilha B (Operacional Revalidada): Santos 0x2 Grêmio — DNB @1.36 ➔ MISS ❌ (Ciclo 6 encerrado no Dia 2)"
+      "Atlético Mineiro x Corinthians (20:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.42 na Melbet)"
     ]
   }
 }
