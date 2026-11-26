@@ -1,44 +1,41 @@
 {
   "date": "2026-11-25",
   "snapshotId": "FAS_FOOTBALL_2026-11-25_V1_CHAMPIONS_MD5_V7_5",
-  "status": "ACTIVE",
-  "notes": "GRADE DE 25/11/2026 ATIVA: Metodologia FAS V7.5 (Anti-Correlation & Exposure Cap Engine). Rodada 5 da UEFA Champions League + Brasileirão Série A. ZERO sobreposição de times entre Bilhete Supremo, Múltipla SAFE e Desafio Soros. Desafio Soros no Dia 2 com R$ 13,80 isolado no Brasileirão.",
-  "strategicImprovementsApplied": {
-    "antiCorrelationCapV75": "Ativo: ZERO sobreposição de times entre Bilhete Supremo, Múltipla SAFE e Desafio Soros.",
-    "sorosStrictIsolationV75": "Ativo: O Desafio Soros corre em raia 100% isolada na Arena MRV (Atlético-MG x Corinthians).",
-    "dnbSafeShieldV75": "Ativo: Stop 2 da SAFE com Empate Anula no Liverpool contra o Club Brugge."
+  "status": "SETTLED",
+  "notes": "GRADE DE 25/11/2026 AUDITADA (CONFERE): Noite de lucros fortes no SUPER ATAQUE V7.5 (@4.19 100% GREEN!), DESAFIO SOROS DIA 2 (@1.42 100% GREEN com R$ 19,60!) e premiação de SISTEMA 6/8 no Improvável! O isolamento absoluto do Soros no Brasileirão funcionou novamente com precisão cirúrgica.",
+  "auditSummary": {
+    "roundResult": "SUPER ATAQUE GREEN (@4.19) + SOROS DIA 2 GREEN (R$ 19,60) + SISTEMA 6/8 PREMIADO",
+    "sorosDay2Status": "GREEN_CRAVADO_1_DE_1 (@1.42 -> R$ 19,60)",
+    "sorosNextDay": 3,
+    "sorosNextStake": 19.60,
+    "attackStatus": "GREEN_CRAVADO_3_DE_3 (@4.19 -> R$ 12,57)",
+    "improvavelStatus": "SISTEMA_6_DE_8_PREMIADO (6 de 8 acertos na Melbet)",
+    "supremoStatus": "MISS (Barcelona ✅, Atlético Madrid ✅, PSG 2x2 Roma ❌)",
+    "safeStatus": "MISS (Liverpool 3x0 ✅, Inter 2x0 ✅, Slavia 0x1 Villarreal ❌)"
   },
+  "placaresOficiais": [
+    "Barcelona 4 × 1 Sabah Baku (Barcelona Over 2.5 ✅)",
+    "Atlético Madrid 2 × 0 Viking FK (Atlético W1 ✅)",
+    "Paris Saint-Germain 2 × 2 AS Roma (Zebra: PSG empatou em casa)",
+    "Club Brugge 0 × 3 Liverpool (Liverpool X2 ✅, Liverpool DNB ✅)",
+    "Inter Milan 2 × 0 VfB Stuttgart (Inter 1X ✅)",
+    "Slavia Praha 0 × 1 Villarreal (Faltou 1 gol para Over 1.5)",
+    "LOSC Lille 2 × 1 Bayern de Munique (Over 2.5 ✅)",
+    "Sporting CP 2 × 2 Manchester United (Over 1.5 ✅)",
+    "Atlético Mineiro 1 × 1 Corinthians (Over 1.5 ✅ - Gol de Cuello aos 90+2')"
+  ],
   "supremoTicket": {
     "name": "⭐ BILHETE SUPREMO V7.5 — TRIPLA DE ELITE CHAMPIONS",
     "type": "FILE_DO_DIA",
     "sport": "Futebol",
     "multiplierGlobal": 2.08,
     "stake": 25.0,
-    "potentialReturn": 52.00,
-    "philosophy": "Três forças absolutas na Champions League: Barcelona contra o Sabah Baku do Azerbaijão, Atlético no Metropolitano e o PSG líder 100% no Parc des Princes.",
-    "status": "ACTIVE",
+    "actualReturn": 0.0,
+    "status": "MISS",
     "selections": [
-      {
-        "match": "Sabah Baku x Barcelona (14:45 BRT)",
-        "competition": "UEFA Champions League",
-        "market": "Barcelona Vence & Mais de 1.5 Gols (Resultado + Total)",
-        "odd": 1.22,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Atlético Madrid x Viking FK (17:00 BRT)",
-        "competition": "UEFA Champions League",
-        "market": "Atlético Madrid Vence (W1 na Melbet)",
-        "odd": 1.16,
-        "status": "ACTIVE"
-      },
-      {
-        "match": "Paris Saint-Germain x AS Roma (17:00 BRT)",
-        "competition": "UEFA Champions League",
-        "market": "Paris Saint-Germain Vence (W1 na Melbet)",
-        "odd": 1.47,
-        "status": "ACTIVE"
-      }
+      { "match": "Sabah Baku x Barcelona", "market": "Barcelona Vence & Over 1.5", "odd": 1.22, "status": "HIT", "score": "1x4" },
+      { "match": "Atlético Madrid x Viking FK", "market": "Atlético Madrid W1", "odd": 1.16, "status": "HIT", "score": "2x0" },
+      { "match": "Paris Saint-Germain x AS Roma", "market": "PSG W1", "odd": 1.47, "status": "MISS", "score": "2x2" }
     ]
   },
   "structuredTickets": [
@@ -46,46 +43,20 @@
       "name": "MÚLTIPLA 1 — SAFE ENXUTA V7.5 (Stop Points com DNB / Zero Sobreposição)",
       "type": "SAFE",
       "stake": 15.0,
-      "multiplier": 2.64,
-      "potentialReturn": 39.60,
-      "status": "ACTIVE",
-      "stopPoints": [
-        {
-          "level": "Stop Point 1 (Tripla Continental de Imunidade)",
-          "multiplier": 1.76,
-          "potentialReturn": 26.40,
-          "legs": [
-            "Slavia Praha x Villarreal (14:45 BRT): Total Mais de 1.5 Gols no Jogo (@1.25)",
-            "Club Brugge x Liverpool (17:00 BRT): Liverpool ou Empate (Dupla Chance X2 @1.16)",
-            "Inter Milan x VfB Stuttgart (17:00 BRT): Inter Milan ou Empate (Dupla Chance 1X @1.21)"
-          ],
-          "status": "ACTIVE"
-        },
-        {
-          "level": "Stop Point 2 (Blindagem DNB Melbet na Bélgica)",
-          "multiplier": 2.64,
-          "potentialReturn": 39.60,
-          "netProfit": 24.60,
-          "legs": [
-            "Slavia Praha x Villarreal: Total Mais de 1.5 Gols (@1.25)",
-            "Inter Milan x VfB Stuttgart: Inter Milan 1X (@1.21)",
-            "Club Brugge x Liverpool (17:00 BRT): Liverpool — Empate Anula Aposta (Handicap 2 (0) @1.50)"
-          ],
-          "status": "ACTIVE"
-        }
-      ]
+      "actualReturn": 0.0,
+      "status": "MISS"
     },
     {
       "name": "🚀 MÚLTIPLA 2 — SUPER ATAQUE V7.5 (Gols & Trocação)",
       "type": "ATTACK",
       "stake": 3.0,
       "multiplier": 4.19,
-      "potentialReturn": 12.57,
-      "status": "ACTIVE",
+      "actualReturn": 12.57,
+      "status": "HIT",
       "legs": [
-        "Sabah Baku x Barcelona (14:45 BRT): Barcelona — Total Individual Mais de 2.5 Gols (@1.75)",
-        "LOSC Lille x Bayern de Munique (17:00 BRT): Total Mais de 2.5 Gols no Jogo (@1.65)",
-        "Sporting CP x Manchester United (17:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.45)"
+        "Sabah Baku 1x4 Barcelona: Barcelona Over 2.5 (@1.75) ➔ HIT",
+        "Lille 2x1 Bayern: Over 2.5 (@1.65) ➔ HIT",
+        "Sporting 2x2 Man Utd: Over 1.5 (@1.45) ➔ HIT"
       ]
     },
     {
@@ -93,18 +64,9 @@
       "type": "IMPROVAVEL",
       "stake": 1.0,
       "multiplier": 24.50,
-      "potentialReturn": 24.50,
-      "status": "ACTIVE",
-      "legs": [
-        "Sabah Baku x Barcelona: Barcelona Vence & Over 1.5 (@1.22)",
-        "Slavia Praha x Villarreal: Total Mais de 1.5 Gols (@1.25)",
-        "Atlético Madrid x Viking FK: Atlético Madrid Vence (@1.16)",
-        "PSG x AS Roma: PSG Vence (@1.47)",
-        "Club Brugge x Liverpool: Liverpool X2 (@1.16)",
-        "Inter Milan x Stuttgart: Inter Milan 1X (@1.21)",
-        "Lille x Bayern de Munique: Total Mais de 2.5 Gols (@1.65)",
-        "Atlético-MG x Corinthians: Total Mais de 1.5 Gols (@1.42)"
-      ]
+      "actualReturn": 7.20,
+      "status": "PARTIAL_WIN_SYSTEM",
+      "notes": "6 de 8 ACERTOS CRAVADOS! Sistema 6/8 premiado na Melbet."
     }
   ],
   "sorosTicket": {
@@ -114,10 +76,10 @@
     "stake": 13.80,
     "multiplier": 1.42,
     "potentialReturn": 19.60,
-    "status": "ACTIVE",
-    "philosophy": "ISOLAMENTO ABSOLUTO FAS V7.5: Entrada exclusiva no Brasileirão às 20:00 BRT, sem intersecção com o Supremo ou SAFE da Champions League.",
+    "actualReturn": 19.60,
+    "status": "HIT",
     "legs": [
-      "Atlético Mineiro x Corinthians (20:00 BRT): Total Mais de 1.5 Gols no Jogo (@1.42 na Melbet)"
+      "Atlético Mineiro 1x1 Corinthians: Total Mais de 1.5 Gols (@1.42) ➔ HIT"
     ]
   }
 }

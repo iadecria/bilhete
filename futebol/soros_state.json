@@ -2,8 +2,8 @@
   "project": "FAS 3 - DESAFIO SOROS 30 DIAS",
   "startDate": "2026-09-25",
   "initialStake": 10.0,
-  "currentStake": 13.80,
-  "currentDay": 2,
+  "currentStake": 19.60,
+  "currentDay": 3,
   "targetDays": 30,
   "status": "ACTIVE",
   "vaultProfit": 10.0,
@@ -431,8 +431,9 @@
       "selection": "Atlético Mineiro x Corinthians (Total Mais de 1.5 Gols no Jogo @1.42 na Melbet)",
       "odd": 1.42,
       "potentialReturn": 19.60,
-      "status": "ACTIVE",
-      "notes": "Ciclo 6 / Dia 2: Isolamento absoluto no Brasileirão Série A (Arena MRV, 20:00 BRT)."
+      "actualReturn": 19.60,
+      "status": "HIT",
+      "notes": "100% GREEN no Dia 2! Atlético-MG 1x1 Corinthians (Over 1.5 ✅ com gol de Cuello aos 90+2'). Retorno: R$ 19,60! Avança para o Dia 3 com R$ 19,60!"
     }
   ]
 }
